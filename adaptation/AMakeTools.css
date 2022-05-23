@@ -1,0 +1,158 @@
+    @media screen and (max-width: 2560px) {
+        .imgg_instrum {
+            margin: 1em auto;
+        }
+    }
+    
+    @media screen and (max-width: 1920px) {
+        .zagol_mini {
+            font-size: 1.7em;
+            text-align: left;
+        }
+        .text_instr {
+            font-size: 1.5em;
+        }
+        .instrum {
+            color: #000000;
+            font-size: 1.5em;
+            margin-bottom: 2em;
+        }
+        .ul {
+            font-size: 1.3em;
+            margin-top: 0.8em;
+        }
+    }
+    
+    @media screen and (max-width: 1380px) {
+        .ul {
+            font-size: 1.1em;
+            margin-top: 0.8em;
+        }
+        .text_instr {
+            font-size: 1.4em;
+        }
+        .instrum {
+            color: #000000;
+            font-size: 1.3em;
+            margin-bottom: 2em;
+        }
+        .zagol_mini {
+            font-size: 1.5em;
+            text-align: left;
+        }
+        .img_instrum {
+            width: 80%;
+            margin: auto;
+        }
+    }
+    
+    @media screen and (max-width: 1245px) {
+        .ul {
+            font-size: 1em;
+            margin-top: 0.8em;
+        }
+        .text_instr {
+            font-size: 1.2em;
+        }
+        .instrum {
+            color: #000000;
+            font-size: 1.2em;
+            margin-bottom: 2em;
+        }
+        .zagol_mini {
+            font-size: 1.4em;
+            text-align: left;
+        }
+    }
+    
+    @media screen and (max-width: 1024px) {
+        .ul {
+            font-size: 0.9em;
+            margin-top: 0.8em;
+        }
+        .text_instr {
+            font-size: 1.2em;
+        }
+        .instrum {
+            color: #000000;
+            font-size: 1em;
+            margin-bottom: 2em;
+        }
+        .zagol_mini {
+            font-size: 1.2em;
+            text-align: left;
+        }
+        .img_instrum {
+            width: 80%;
+            margin: auto;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .ul {
+            font-size: 0.9em;
+            margin-top: 0.8em;
+        }
+        .text_instr {
+            font-size: 1.2em;
+        }
+        .instrum {
+            color: #000000;
+            font-size: 1em;
+            margin-bottom: 2em;
+        }
+        .zagol_mini {
+            font-size: 1.2em;
+            text-align: left;
+        }
+        .img_instrum {
+            width: 80%;
+            margin: auto;
+        }
+    }
+    
+    @media screen and (max-width: 505px) {
+        .ul {
+            font-size: 0.8em;
+            margin-top: 0.8em;
+        }
+        .text_instr {
+            font-size: 1em;
+        }
+        .instrum {
+            color: #000000;
+            font-size: 0.9em;
+            margin-bottom: 2em;
+        }
+        .zagol_mini {
+            font-size: 1em;
+            text-align: left;
+        }
+        .img_instrum {
+            width: 90%;
+            margin: auto;
+        }
+    }
+    
+    @media screen and (max-width: 425px) {
+        .ul {
+            font-size: 0.7em;
+            margin-top: 0.8em;
+        }
+        .text_instr {
+            font-size: 0.9em;
+        }
+        .instrum {
+            color: #000000;
+            font-size: 0.8em;
+            margin-bottom: 2em;
+        }
+        .zagol_mini {
+            font-size: 0.8em;
+            text-align: left;
+        }
+    }
+    
+    @media screen and (max-width: 375px) {}
+    
+    @media screen and (max-width: 320px) {}

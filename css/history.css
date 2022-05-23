@@ -1,0 +1,157 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper_image {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    /* background: url(../images/OKompanii.jpg) no-repeat 100% center; */
+    opacity: 0.7;
+    z-index: 4;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.year {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+}
+
+.block_swiper {
+    position: absolute;
+}
+
+.text_history {
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+}
+
+.picutres {
+    margin: auto;
+    width: 80%;
+    height: auto;
+}
+
+.picutres img {
+    margin: auto;
+    width: 20%;
+    height: auto;
+    transition: 1s;
+}
+
+
+.text_history_container {
+    text-align: justify;
+}
+
+.comtainer_history{
+    margin-bottom: 6em;
+}
+
+.abzz {
+    margin-left: 0.2em;
+    font-weight: 500;
+    font-size: 2.1em;
+    line-height: 38px;
+    text-align: justify;
+    color: #1E71BF;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: 0.7em;
+}
+
+.block_swiper {
+    width: 100%;
+    paddding-bottom: 20%;
+}
+
+.bg_swiper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+}
+
+/* .bg_swiper {
+    filter: brightness(40%);
+    background-color: #000;
+} */
+
+footer{
+    margin-top: 5.6em;
+}
+
+.ontop_btn {
+color: white;
+position: fixed;
+top: 90%;
+right: 5%;
+padding: 15px;
+background: #1E71BF;
+border-radius: 18px;
+cursor: pointer;
+z-index: 5;
+}
+
+.ontop_btn_0ff{
+    display: none;
+}
+
+.ontop_btn:hover{
+background: #145ea3;
+}
+
+.ontop_btn a{
+    color: white;
+    text-decoration: none;
+}
+.ontop_btn a:hover{
+    color: white;
+    text-decoration: none;
+}

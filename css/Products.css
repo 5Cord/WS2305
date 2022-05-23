@@ -1,0 +1,191 @@
+.container_prod {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.block_prod img {
+    width: 138px;
+    height: 138px;
+}
+
+.text_prod {
+    font-size: 2em;
+    color: #1D71BD;
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+
+.container_prod_dop {
+    margin-bottom: 4em;
+}
+
+.block_prod {
+    margin: auto;
+    width: 25%;
+}
+
+.main_container_prod {
+    margin-bottom: 2.688em;
+}
+
+.pic_swiper1 img {
+    width: 90%;
+}
+
+
+/* Разновитеность продукции */
+
+.text_RPord {
+    position: absolute;
+    top: 100%;
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+.zagol {
+    color: #1D71BD;
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* Подвал */
+
+footer {
+    background-color: #1E71BF;
+    position: relative;
+}
+
+.content_footer {
+    position: relative;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    list-style-type: none;
+}
+
+.container_text_footer {
+    margin-top: 1em;
+}
+
+.text_footer {
+    margin-top: 5px;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.content_footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    margin-top: 1em;
+}
+
+.stolbec_logo {
+    margin: auto;
+}
+
+.stolbec {
+    margin-right: 4em;
+}
+
+.logo_footer {
+    width: 395px;
+    height: 69px;
+}
+
+.title_soc_footer {
+    text-align: right;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    position: absolute;
+    left: 82.4%;
+    top: 80%;
+    color: #FFFFFF;
+}
+
+.container_soc_footer {
+    display: flex;
+    margin-top: 7em;
+}
+
+.icon_soc_footer img {
+    width: 60px;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.swiper2 {
+    margin-bottom: 2.688em;
+    background-color: #e8f1ff;
+    overflow: hidden;
+}
+
+.logo_footer {
+    margin-top: 5em;
+}
+
+.block_swiper {
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.text_swiper_big {
+    margin-left: 8%;
+    margin: auto 8% auto 8%;
+    width: 50%;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 54px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #1E71BF;
+}
+
+.pic_swiper {
+    width: 50%;
+}
+
+.swiper2 {
+    margin-top: 2.688em;
+    background-color: #bdd9ff;
+}
+
+.swiper1 {
+    width: 100%;
+    padding-bottom: 7%;
+    overflow: hidden;
+}
+
+.ssilka {
+    float: right;
+    margin-top: 1em;
+    font-size: 120%;
+}
+
+.ssilka a {
+    color: black;
+}
+
+.ssilka a:hover {
+    color: black;
+}
+
+.dark_text:hover a {
+    color: #B4CEEE;
+}
+
+.dark_text a {
+    color: #B4CEEE;
+}

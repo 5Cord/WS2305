@@ -1,0 +1,99 @@
+    * {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .navbar {
+        background-color: #1D71BD;
+    }
+    /* .navbar-light .navbar-nav .nav-link {
+        color: rgb(255, 255, 255);
+    }
+    
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: rgb(255, 255, 255);
+    }
+     */
+    
+    button {
+        border: none;
+    }
+    
+    @media screen and (max-width: 1153px) {
+        .nav_right {
+            display: none!important;
+        }
+    }
+    
+    @media screen and (max-width: 992px) {
+        .nav_right {
+            display: none!important;
+        }
+    }
+    
+    @media screen and (max-width: 660px) {
+        .nav-item {
+            font-size: 0.8em;
+        }
+        .active::after {
+            content: "";
+            display: block;
+            width: 15%;
+            height: 2px;
+            margin-top: 2px;
+            background-color: rgb(255, 255, 255);
+            color: #ffff;
+        }
+    }
+    
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: space-around;
+    }
+    
+    .collapse {
+        margin: auto;
+    }
+    
+    .navbar-nav {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .nav_right {
+        display: flex;
+    }
+    
+    .nav_right input {
+        width: 100%;
+        height: 30px;
+        padding-left: 10px;
+        border: none;
+        outline: none;
+        background: #daf5f9;
+        color: #9E9C9C;
+    }
+    
+    .nav_right button {
+        width: 32px;
+        border: none;
+        background: #bdd9ff;
+    }
+    
+    button img {
+        width: 24px;
+        margin: -5px;
+    }
+    
+    .nav-link {
+        text-transform: uppercase;
+        margin: 0 15px 0 15px;
+        /* text-align: center; */
+        cursor: pointer;
+    }
+    /* .navbar-light .navbar-nav .nav-link:focus,
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: rgb(255 255 255);
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: rgb(255 255 255);
+    } */

@@ -1,0 +1,186 @@
+/* Новости */
+
+.block_news {
+    display: inline-block;
+    background-color: #1D71BD;
+    width: 30%;
+    border-radius: 28px;
+    color: white;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    vertical-align: bottom;
+}
+
+.container_news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1.766em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block_pic_news {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.block_text_news {
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 40%;
+}
+
+.pic {
+    width: 94%;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.title_news {
+    color: #fafafa;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    word-break: break-all;
+    padding-right: 0.7em;
+}
+
+.date {
+    color: #b7c0ce;
+    font-size: 1.25em;
+    margin-top: 1em;
+    margin-bottom: 1.2em;
+}
+
+.wstext_news {
+    text-overflow: ellipsis;
+    font-size: 2em;
+    white-space: nowrap;
+    overflow: hidden;
+    word-break: break-all;
+    padding-right: 0.7em;
+}
+
+
+/* Подвал */
+
+.title_footer {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #1E71BF;
+    position: relative;
+}
+
+.content_footer {
+    position: relative;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    list-style-type: none;
+}
+
+.container_text_footer {
+    margin-top: 1em;
+}
+
+.text_footer {
+    margin-top: 5px;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.content_footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    margin-top: 1em;
+}
+
+.stolbec_logo {
+    margin: auto;
+}
+
+.stolbec {
+    margin-right: 4em;
+}
+
+.logo_footer {
+    width: 395px;
+    height: 69px;
+}
+
+.title_soc_footer {
+    text-align: right;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    position: absolute;
+    left: 82.4%;
+    top: 80%;
+    color: #FFFFFF;
+}
+
+.container_soc_footer {
+    display: flex;
+    margin-top: 7em;
+}
+
+.icon_soc_footer img {
+    width: 60px;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.logo_footer {
+    margin-top: 5em;
+}
+
+.pag {
+    color: rgb(0, 0, 0);
+    z-index: 5;
+    width: 5%;
+    background-color: #b7c0ce;
+    margin-bottom: 1em;
+}
+
+.paginacia a:hover {
+    background-color: #99a5b8;
+    color: rgb(0, 0, 0);
+}
+
+.paginacia {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.container_pag {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.active_pag {
+    background-color: #1E71BF;
+    color: rgb(0, 0, 0);
+    z-index: 5;
+    width: 5%;
+}

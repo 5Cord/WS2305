@@ -1,0 +1,130 @@
+select {
+    display: none;
+}
+
+.up_block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 1336px) {
+    select {
+        margin-left: 1.366em;
+        display: block;
+        width: 25%;
+        height: 30px;
+        font-size: 12px;
+        padding-left: 10px;
+        border: none;
+        outline: none;
+        background: #daf5f9;
+        color: #9E9C9C;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    select {
+        margin-left: 1.366em;
+        display: block;
+        top: 15%;
+        width: 25%;
+        height: 30px;
+        font-size: 12px;
+        padding-left: 10px;
+        border: none;
+        outline: none;
+        background: #daf5f9;
+        color: #9E9C9C;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    select {
+        top: 110px;
+        width: 25%;
+        height: 30px;
+        font-size: 13px;
+        padding-left: 10px;
+        border: none;
+        outline: none;
+        background: #daf5f9;
+        color: #9E9C9C;
+        margin: auto;
+    }
+    option {
+        position: absolute;
+        top: 110px;
+        width: 20%;
+        height: 30px;
+        font-size: 13px;
+        padding-left: 10px;
+        border: none;
+        outline: none;
+        background: #daf5f9;
+        color: #9E9C9C;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    select {
+        top: 110px;
+        width: 22%;
+        height: 30px;
+        font-size: 10px;
+        padding-left: 10px;
+        border: none;
+        outline: none;
+        background: #daf5f9;
+        color: #9E9C9C;
+        margin: auto;
+    }
+    option {
+        position: absolute;
+        top: 110px;
+        width: 22%;
+        height: 30px;
+        font-size: 10px;
+        padding-left: 10px;
+        border: none;
+        outline: none;
+        background: #daf5f9;
+        color: #9E9C9C;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    select {
+        top: 110px;
+        width: 22%;
+        height: 30px;
+        font-size: 10px;
+        padding-left: 10px;
+        border: none;
+        outline: none;
+        background: #daf5f9;
+        color: #9E9C9C;
+        margin-top: 1em;
+        margin: auto;
+    }
+    .up_block {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    option {
+        position: absolute;
+        top: 110px;
+        width: 22%;
+        height: 30px;
+        font-size: 10px;
+        padding-left: 10px;
+        border: none;
+        outline: none;
+        background: #daf5f9;
+        color: #9E9C9C;
+    }
+}

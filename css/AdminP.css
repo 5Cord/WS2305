@@ -1,0 +1,260 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text_header {
+    background-color: #9bbeff;
+    /* background: linear-gradient(180deg, rgba(68,112,255,1) 0%, rgb(158, 181, 255) 51%, rgb(255, 255, 255) 100%); */
+    font-size: 3em;
+    font-weight: 200;
+    text-align: center;
+    color: #000000; 
+} 
+
+.left_menu {
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+    background-color: #9bbeff;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+}
+
+.point_left {
+    padding: 1em 0em;
+    background-color: #9bbeff;
+    width: 100%;
+}
+
+.point_left:hover {
+    padding: 1em 0em;
+    background-color: #6ea1ff;
+    width: 100%;
+}
+
+a {
+    padding-left: 1em;
+    text-decoration: none;
+    color: #000000;
+    font-size: 2em;
+    font-weight: 200;
+}
+
+a {
+    padding-left: 1em;
+    text-decoration: none;
+    color: #000000;
+    font-size: 2em;
+    font-weight: 200;
+}
+
+iframe {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 80%;
+    margin-top: 5%;
+    height: 100%;
+}
+
+.block_feedBack {
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.org {
+    font-style: italic;
+}
+
+.text {
+    margin-top: 0.5em;
+}
+
+.text::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #6ea1ff;
+}
+
+.date {
+    font-size: 90%;
+    font-style: italic;
+    color: rgb(182, 182, 182);
+}
+
+@media screen and (max-width: 1000px) {
+    .date {
+        font-size: 60%;
+        font-style: italic;
+        color: rgb(182, 182, 182);
+    }
+    .name {
+        font-weight: bold;
+        font-size: 80%;
+    }
+    .org {
+        font-size: 80%;
+    }
+    .tel {
+        font-size: 80%;
+    }
+    .email {
+        font-size: 80%;
+    }
+    .text {
+        font-size: 80%;
+    }
+    a {
+        padding-left: 1em;
+        text-decoration: none;
+        color: #000000;
+        font-size: 1em;
+        font-weight: 200;
+    }
+}
+
+@media screen and (max-width: 968px) {
+    iframe {
+        position: absolute;
+        top: 0px;
+        right: 0;
+        width: 80%;
+        margin-top: 7%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .date {
+        font-size: 50%;
+        font-style: italic;
+        color: rgb(182, 182, 182);
+    }
+    .name {
+        font-weight: bold;
+        font-size: 70%;
+    }
+    .org {
+        font-size: 70%;
+    }
+    .tel {
+        font-size: 70%;
+    }
+    .email {
+        font-size: 70%;
+    }
+    .text {
+        font-size: 70%;
+    }
+    a {
+        padding-left: 1em;
+        text-decoration: none;
+        color: #000000;
+        font-size: 1em;
+        font-weight: 200;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .date {
+        font-size: 50%;
+        font-style: italic;
+        color: rgb(182, 182, 182);
+    }
+    .name {
+        font-weight: bold;
+        font-size: 60%;
+    }
+    .org {
+        font-size: 60%;
+    }
+    .tel {
+        font-size: 60%;
+    }
+    .email {
+        font-size: 60%;
+    }
+    .text {
+        font-size: 60%;
+    }
+    a {
+        padding-left: 1em;
+        text-decoration: none;
+        color: #000000;
+        font-size: 0.8em;
+        font-weight: 200;
+    }
+}
+
+@media screen and (max-width: 373px) {
+    .date {
+        font-size: 50%;
+        font-style: italic;
+        color: rgb(182, 182, 182);
+    }
+    .name {
+        font-weight: bold;
+        font-size: 50%;
+    }
+    .org {
+        font-size: 50%;
+    }
+    .tel {
+        font-size: 50%;
+    }
+    .email {
+        font-size: 50%;
+    }
+    .text {
+        font-size: 50%;
+    }
+    a {
+        padding-left: 1em;
+        text-decoration: none;
+        color: #000000;
+        font-size: 0.8em;
+        font-weight: 200;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    .date {
+        font-size: 50%;
+        font-style: italic;
+        color: rgb(182, 182, 182);
+    }
+    .name {
+        font-weight: bold;
+        font-size: 40%;
+    }
+    .org {
+        font-size: 40%;
+    }
+    .tel {
+        font-size: 40%;
+    }
+    .email {
+        font-size: 40%;
+    }
+    .text {
+        font-size: 40%;
+    }
+    a {
+        padding-left: 1em;
+        text-decoration: none;
+        color: #000000;
+        font-size: 0.8em;
+        font-weight: 200;
+    }
+}

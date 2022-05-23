@@ -1,0 +1,152 @@
+    @media screen and (max-width: 970px) {
+        .nav_block {
+            text-transform: uppercase;
+            font-size: 13.1px;
+            margin: 5px 15px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .nav_block {
+            text-transform: uppercase;
+            font-size: 14.1px;
+            margin: 5px 15px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .nav_right {
+            display: flex;
+        }
+        .swiper {
+            display: none;
+        }
+        /* Поиск */
+        .nav_right {
+            display: flex;
+        }
+        .nav_right input {
+            width: 50%;
+            height: 30px;
+            padding-left: 10px;
+            border: none;
+            outline: none;
+            background: #daf5f9;
+            color: #9E9C9C;
+        }
+        .nav_right button {
+            width: 32px;
+            border: none;
+            background: #bdd9ff;
+        }
+        button img {
+            width: 24px;
+            margin: -5px;
+        }
+        button:active {
+            background: #7a99ff;
+        }
+        /* Навигация*/
+        .container_nav {
+            background-color: #1D71BD;
+            height: 60px;
+            width: 100%;
+            color: white;
+            align-content: center;
+        }
+        .nav_block {
+            text-transform: uppercase;
+            font-size: 14.1px;
+            margin: 0 15px 0 15px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .nav_block,
+        .input:hover {
+            background-color: #1D71BD;
+        }
+        .active::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 2px;
+            margin-top: 2px;
+            background-color: rgb(255, 255, 255);
+        }
+        .nav_left {
+            display: flex;
+            width: 67%;
+            margin-left: 10%;
+        }
+        .block_link a {
+            color: #1D71BD;
+        }
+    }
+    
+    @media screen and (max-width: 1336px) {
+        .nav_block {
+            text-transform: uppercase;
+            font-size: 14.px;
+            margin: 5px 15px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .nav_right {
+            display: flex;
+        }
+        /* Поиск */
+        .nav_right {
+            display: flex;
+        }
+        .nav_right input {
+            width: 50%;
+            height: 30px;
+            padding-left: 10px;
+            border: none;
+            outline: none;
+            background: #daf5f9;
+            color: #9E9C9C;
+        }
+        .nav_right button {
+            width: 32px;
+            border: none;
+            background: #bdd9ff;
+        }
+        button img {
+            width: 24px;
+            margin: -5px;
+        }
+        button:active {
+            background: #7a99ff;
+        }
+        /* Навигация*/
+        .container_nav {
+            background-color: #1D71BD;
+            height: 60px;
+            width: 100%;
+            color: white;
+            align-content: center;
+        }
+        .nav_block {
+            text-transform: uppercase;
+            font-size: 16px;
+            margin: 0 15px 0 15px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .nav_block,
+        .input:hover {
+            background-color: #1D71BD;
+        }
+        .active::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 2px;
+            margin-top: 2px;
+            background-color: rgb(255, 255, 255);
+        }
+        .nav_left {
+            display: flex;
+            width: 67%;
+            margin-left: 10%;
+        }
+    }

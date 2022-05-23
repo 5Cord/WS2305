@@ -1,0 +1,261 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    /* background: #eee; */
+    /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
+    color: #000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 95%;
+    margin: auto;
+}
+
+.swiper {
+    width: 100%;
+    height: 730px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 1.2em;
+    /* background: #fff; */
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-wrapper {
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo {
+    position: absolute;
+    z-index: 2;
+    right: 100px;
+    top: 50px;
+}
+
+.logo a:hover {
+    width: 320%;
+}
+
+
+/* Поиск */
+
+.nav_right {
+    display: flex;
+}
+
+.nav_right input {
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    background: #daf5f9;
+    color: #9E9C9C;
+}
+
+.nav_right button {
+    width: 32px;
+    border: none;
+    background: #bdd9ff;
+}
+
+button img {
+    width: 24px;
+    margin: -5px;
+}
+
+button:active {
+    background: #7a99ff;
+}
+
+
+/* Навигация*/
+
+.container_nav {
+    background-color: #1D71BD;
+    height: 60px;
+    width: 100%;
+    color: white;
+}
+
+.nav_block {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0 15px 0 15px;
+    /* text-align: center; */
+    cursor: pointer;
+}
+
+.nav_block,
+.input:hover {
+    background-color: #1D71BD;
+}
+
+.active::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 2px;
+    background-color: rgb(255, 255, 255);
+    color: #ffff;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container_nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 16px;
+    align-items: center;
+}
+
+.nav_left {
+    display: flex;
+    width: 70%;
+    margin-left: 10%;
+}
+
+
+/* Контент свайпера*/
+
+.container_swiper {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 585px;
+    z-index: 3;
+    margin: 0 100px;
+    /* margin: 0 50px 0 50px; */
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* Статистика */
+
+.content {
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 30px;
+    color: #fafafa;
+}
+
+.content_b {
+    font-size: 40px;
+    color: #fafafa;
+}
+
+.underTitle {
+    font-size: 20px;
+    text-transform: lowercase;
+    margin-top: -7px;
+    color: #fafafa;
+}
+
+
+/* Текст на слайдере */
+
+.container_text_swiper {
+    position: absolute;
+    z-index: 4;
+    right: 75px;
+    top: 120px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 25px 50px;
+    border-radius: 10px;
+}
+
+.text_swiper {
+    font-size: 150%;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.zag {
+    margin: 2.688em 0;
+}
+
+.container_body {
+    width: 100%;
+    max-width: 85%;
+    margin: auto;
+    margin-bottom: 2.688em;
+}
+
+.block_swiper img {
+    width: 80%;
+    height: 100%;
+}
+
+.container_text_swiper {
+    position: absolute;
+    z-index: 4;
+    right: 75px;
+    top: 120px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 25px 50px;
+    border-radius: 10px;
+}
+
+.text_swiper {
+    font-size: 150%;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.DarkSwitchOn {
+    border-radius: 20px;
+    padding: 3px 10px 3px 10px;
+    background-color: #31548a;
+    ;
+    color: #fafafa;
+}

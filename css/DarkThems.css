@@ -1,0 +1,47 @@
+.dark {
+    background-color: #0A192B;
+}
+
+.dark_text {
+    color: #B4CEEE;
+}
+
+.dark_block {
+    background-color: #15355C;
+}
+
+.dark_HF {
+    background-color: #143966;
+}
+
+.dark_SO {
+    background-color: #B4CEEE;
+}
+
+body {
+    transition: 1s;
+}
+
+.light {
+    transition: 1s;
+}
+
+.light_text {
+    transition: 1s;
+}
+
+.light_block {
+    transition: 1s;
+}
+
+.light_SO {
+    transition: 1s;
+}
+
+.light_block {
+    transition: 1s;
+}
+
+.light_HF {
+    transition: 1s;
+}

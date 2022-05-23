@@ -1,0 +1,36 @@
+.black {
+    color: black;
+    text-align: left;
+}
+
+.zagol_mini {
+    font-size: 1.7em;
+    text-align: left;
+}
+
+.instrum {
+    color: #000000;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+.SS {
+    color: #1D71BD;
+}
+
+.text_instr {
+    font-size: 1.5em;
+}
+
+.ul {
+    font-size: 1.3em;
+    margin-top: 0.8em;
+}
+
+.li {
+    margin-bottom: 0.5em;
+}
+
+.last {
+    margin-bottom: 5em;
+}

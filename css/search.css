@@ -1,0 +1,47 @@
+.block_search {
+  text-align: center;
+}
+
+.text {
+  font-size: 130%;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+}
+
+.text::after {
+  content: "";
+  display: block;
+  width: 32px;
+  padding-top: 3px;
+  border-bottom: 2px solid #f9dd94;
+}
+
+.button {
+  padding: 0 30px;
+  margin: 0 1em;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  font-size: 120%;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: #c5e3ff;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=search.css.map */

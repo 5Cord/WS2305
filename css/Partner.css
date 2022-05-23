@@ -1,0 +1,124 @@
+/* ПаРНЕРЫ */
+
+.blocks_parthner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+
+.parth_pic {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 409.6px;
+    height: 350px;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E71BF;
+}
+
+.parth_pic img {
+    margin: auto;
+    width: 60%;
+}
+
+.bg_cont {
+    background-color: #bdd9ff;
+    padding-top: 2.688em;
+    padding-bottom: 2.688em;
+    /* padding-bottom: 2em; */
+}
+
+
+/* Подвал */
+
+.title_footer {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #1E71BF;
+    position: relative;
+}
+
+.content_footer {
+    position: relative;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    list-style-type: none;
+}
+
+.container_text_footer {
+    margin-top: 1em;
+}
+
+.text_footer {
+    margin-top: 5px;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.content_footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    margin-top: 1em;
+}
+
+.stolbec_logo {
+    margin: auto;
+}
+
+.stolbec {
+    margin-right: 4em;
+}
+
+.logo_footer {
+    width: 395px;
+    height: 69px;
+}
+
+.title_soc_footer {
+    text-align: right;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    position: absolute;
+    left: 82.4%;
+    top: 80%;
+    color: #FFFFFF;
+}
+
+.container_soc_footer {
+    display: flex;
+    margin-top: 7em;
+}
+
+.icon_soc_footer img {
+    width: 60px;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.logo_footer {
+    margin-top: 5em;
+}

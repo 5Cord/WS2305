@@ -1,0 +1,80 @@
+@media screen and (max-width: 1380px) {
+    .text_RPord {
+        position: absolute;
+        top: 100%;
+        margin-top: 1em;
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 1245px) {
+    .text_RPord {
+        position: absolute;
+        top: 100%;
+        margin-top: 1em;
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .text_RPord {
+        position: absolute;
+        top: 100%;
+        margin-top: 1em;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text_RPord {
+        position: absolute;
+        top: 100%;
+        margin-top: 1em;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .text_RPord {
+        position: absolute;
+        top: 100%;
+        margin-top: 1em;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .text_RPord {
+        position: absolute;
+        top: 100%;
+        margin-top: 1em;
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .text_RPord {
+        position: absolute;
+        top: 100%;
+        margin-top: 1em;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .text_RPord {
+        position: absolute;
+        top: 100%;
+        margin-top: 1em;
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .text_RPord {
+        position: absolute;
+        top: 100%;
+        margin-top: 1em;
+        font-size: 0.8em;
+    }
+}

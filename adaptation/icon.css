@@ -1,0 +1,108 @@
+@media screen and (max-width: 1380px) {
+    .block_prod img {
+        width: 108px;
+        height: 108px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .block_prod img {
+        width: 78px;
+        height: 78px;
+    }
+}
+
+@media screen and (max-width: 1245px) {
+    .block_prod img {
+        width: 98px;
+        height: 98px;
+    }
+}
+
+@media screen and (max-width: 1245px) {
+    .text_prod {
+        font-size: 1.6em;
+        text-transform: uppercase;
+        margin-top: 1em;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .text_prod {
+        font-size: 1em;
+        text-transform: uppercase;
+        margin-top: 1em;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .block_prod img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text_prod {
+        font-size: 0.7em;
+        text-transform: uppercase;
+        margin-top: 1em;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .block_prod img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .text_prod {
+        font-size: 0.6em;
+        text-transform: uppercase;
+        margin-top: 1em;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .block_prod img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .text_prod {
+        font-size: 0.6em;
+        text-transform: uppercase;
+        margin-top: 1em;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .block_prod img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .text_prod {
+        font-size: 0.5em;
+        text-transform: uppercase;
+        margin-top: 1em;
+        display: flex;
+        justify-content: center;
+    }
+}

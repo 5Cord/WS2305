@@ -1,0 +1,126 @@
+/* Контент услуг */
+
+.servisec {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.block_serv {
+    display: flex;
+    flex-basis: 100%;
+    flex: 1;
+    height: 48%;
+    margin-left: 6%;
+    margin: 2% 0;
+}
+
+.block_serv {
+    transition: 1s;
+}
+
+.block_serv:hover {
+    transform: scale(1.07);
+}
+
+.block_serv img {
+    width: 185px;
+}
+
+.text_servisec {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1em;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 47px;
+    padding-right: 2%;
+    color: #1E71BF;
+}
+
+
+/* Подвал */
+
+.title_footer {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #1E71BF;
+    position: relative;
+}
+
+.content_footer {
+    position: relative;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    list-style-type: none;
+}
+
+.container_text_footer {
+    margin-top: 1em;
+}
+
+.text_footer {
+    margin-top: 5px;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.content_footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    margin-top: 1em;
+}
+
+.stolbec_logo {
+    margin: auto;
+}
+
+.stolbec {
+    margin-right: 4em;
+}
+
+.logo_footer {
+    width: 395px;
+    height: 69px;
+}
+
+.title_soc_footer {
+    text-align: right;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    position: absolute;
+    left: 82.4%;
+    top: 80%;
+    color: #FFFFFF;
+}
+
+.container_soc_footer {
+    display: flex;
+    margin-top: 7em;
+}
+
+.icon_soc_footer img {
+    width: 60px;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.logo_footer {
+    margin-top: 5em;
+}

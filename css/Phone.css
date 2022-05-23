@@ -1,0 +1,17 @@
+.Phone_nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 16px;
+    align-items: center;
+    background-color: #1D71BD;
+    height: 30%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 15%;
+}
+
+#checkbox:checked~.Phone_nav {
+    height: 50%;
+}

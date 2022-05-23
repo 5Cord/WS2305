@@ -1,0 +1,198 @@
+/* Текст на слайдере */
+
+.container_text_swiper {
+    position: absolute;
+    z-index: 4;
+    right: 75px;
+    top: 120px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 25px 50px;
+    border-radius: 10px;
+}
+
+.text_swiper {
+    font-size: 150%;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+/* Левое меню */
+
+.left_menu {
+    background-color: #1D71BD;
+    width: 23vw;
+    -webkit-clip-path: polygon(0 0, 100% 10%, 100% 90%, 0% 100%);
+    clip-path: polygon(0% 12%, 100% 2%, 100% 98%, 0% 88%);
+    background: #1D71BD;
+    padding: 1em 2em 0 1em;
+    color: #FFFFFF;
+}
+
+.block_text_lm {
+    margin-top: 100%;
+    text-align: right;
+    padding-left: 1em;
+}
+
+.block_text_lm a {
+    color: #ffffff;
+}
+
+.point_left_menu {
+    margin-bottom: 1em;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.point_left_menu:after {
+    display: block;
+    left: 0;
+    /*изменить на right:0;, чтобы изменить направление подчёркивания */
+    width: 0;
+    /*задаём длинну линии до наведения курсора*/
+    height: 2px;
+    /*задаём ширину линии*/
+    background-color: #ffffff;
+    /*задаём цвет линии*/
+    content: "";
+    transition: width 0.3s ease-out;
+    /*задаём время анимации*/
+}
+
+.point_left_menu:hover:after,
+.point_left_menu:focus:after {
+    width: 100%;
+    /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+
+/* Содержимаое страницы */
+
+.container_about {
+    display: flex;
+}
+
+.text_about {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: justify;
+    color: #1D71BD;
+    margin-left: 1.366em;
+}
+
+.pic_about {
+    width: 398px;
+    height: 446px;
+    margin-right: 1em;
+}
+
+.block_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.366em;
+}
+
+.old {
+    width: 17%;
+    height: 12%;
+    margin: auto;
+}
+
+.new {
+    width: 35%;
+    height: 12%;
+    margin: auto;
+    margin-left: 5%;
+}
+
+
+/* Подвал */
+
+.title_footer {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #1E71BF;
+    position: relative;
+}
+
+.content_footer {
+    position: relative;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    list-style-type: none;
+}
+
+.container_text_footer {
+    margin-top: 1em;
+}
+
+.text_footer {
+    margin-top: 5px;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.content_footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    margin-top: 1em;
+}
+
+.stolbec_logo {
+    margin: auto;
+}
+
+.stolbec {
+    margin-right: 4em;
+}
+
+.logo_footer {
+    width: 395px;
+    height: 69px;
+}
+
+.title_soc_footer {
+    text-align: right;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    position: absolute;
+    left: 82.4%;
+    top: 80%;
+    color: #FFFFFF;
+}
+
+.container_soc_footer {
+    display: flex;
+    margin-top: 7em;
+}
+
+.icon_soc_footer img {
+    width: 60px;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.logo_footer {
+    margin-top: 5em;
+}

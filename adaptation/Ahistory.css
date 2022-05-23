@@ -1,0 +1,50 @@
+                                        @media screen and (max-width: 768px) {
+                                        .abzz {
+                                            font-size: 1.5em;
+                                            line-height: 30px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 425px) {
+                                        @media screen and (max-width: 768px) {
+                                            .abzz {
+                                                font-size: 1.2em;
+                                                line-height: 25px;
+                                            }
+                                        }
+                                        @media screen and (max-width: 375px) {
+                                            .abzz {
+                                                font-size: 1em;
+                                                line-height: 20px;
+                                            }
+                                        }
+                                        @media screen and (max-width: 320px) {
+                                            .abzz {
+                                                font-size: 1em;
+                                                line-height: 17px;
+                                            }
+                                        /* }
+                                        @media screen and (max-height: 1220px)  {
+                                            .picutres {
+                                                margin: auto;
+                                                width: 20%;
+                                                transition: 1s;
+                                            }
+                                            .picutres img {
+                                                margin: auto;
+                                                width: 20%;
+                                                transition: 1s;
+                                            }
+                                        }
+                                        @media screen and (max-height: 1000px)  {
+                                            .picutres {
+                                                margin: auto;
+                                                width: 10%;
+                                                transition: 1s;
+                                            }
+                                            .picutres img {
+                                                margin: auto;
+                                                width: 10%;
+                                                transition: 1s;
+                                            }
+                                        } */

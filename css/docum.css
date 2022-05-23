@@ -1,0 +1,73 @@
+.point_documS {
+    color: #1D71BD;
+    font-size: 1.9em;
+    font-weight: 600;
+    line-height: 3em;
+}
+
+.point_documS:hover {
+    color: #1D71BD;
+    text-decoration: underline;
+}
+
+
+/* Убираем стандартный вывод метки списка */
+
+li {
+    font-size: omgHuge;
+}
+
+li span {
+    font-size: mehNormal;
+}
+
+ul {
+    color: #1D71BD;
+    /* font-weight: bold; */
+    margin-bottom: 4em;
+}
+
+@media screen and (max-width: 1024px) {
+    .point_documS {
+        color: #1D71BD;
+        font-size: 1.5em;
+        font-weight: 600;
+        line-height: 3em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .point_documS {
+        color: #1D71BD;
+        font-size: 1.1em;
+        font-weight: 600;
+        line-height: 3em;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    .point_documS {
+        color: #1D71BD;
+        font-size: 1em;
+        font-weight: 600;
+        line-height: 3em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .point_documS {
+        color: #1D71BD;
+        font-size: 0.8em;
+        font-weight: 600;
+        line-height: 3em;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .point_documS {
+        color: #1D71BD;
+        font-size: 0.6em;
+        font-weight: 600;
+        line-height: 3em;
+    }
+}

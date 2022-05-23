@@ -1,0 +1,70 @@
+@media screen and (max-width: 700px) {
+    .left_form {
+        font-size: 90%;
+    }
+    textarea {
+        width: 406.8px;
+    }
+    .bg_color {
+        position: absolute;
+        background-color: #9bbeff;
+        width: 495px;
+        height: 89%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        margin: auto;
+        border-radius: 18px;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    textarea {
+        width: 427.8px;
+    }
+    .left_form input {
+        width: 427.8px;
+        margin-bottom: 0.2em;
+    }
+    .left_form {
+        margin-bottom: 0em;
+        z-index: 2;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    textarea {
+        width: 272.8px;
+    }
+    .left_form input {
+        width: 272.8px;
+        margin-bottom: 0.2em;
+    }
+    .left_form {
+        margin-bottom: 0em;
+        z-index: 2;
+    }
+    .bg_color {
+        width: 338px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    textarea {
+        width: 250.8px;
+    }
+    .left_form input {
+        width: 250.8px;
+        margin-bottom: 0.2em;
+    }
+    .left_form {
+        margin-bottom: 0em;
+        z-index: 2;
+    }
+    .bg_color {
+        width: 312px;
+    }
+}

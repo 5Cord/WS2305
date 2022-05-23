@@ -1,0 +1,63 @@
+    @media screen and (max-width: 1300px) {
+        .bg_cont {
+            background: linear-gradient(to right, #ffffff 50%, rgb(255, 255, 255) 50%);
+            padding: 2em 0;
+        }
+        .left {
+            color: #000000;
+            width: 46%;
+        }
+        .h1 {
+            color: rgb(0, 0, 0);
+            -webkit-text-fill-color: black;
+        }
+        .container_contact {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+        }
+        .left {
+            width: 95%;
+        }
+        .right {
+            width: 95%;
+        }
+        .block_contact {
+            text-align: center;
+        }
+        .tel_cont a {
+            color: #000000;
+        }
+        .tel_cont a:hover {
+            text-decoration: underline;
+        }
+    }
+    
+    @media screen and (max-width: 1200px) {
+        .swiper {
+            display: none;
+        }
+        .name_cont {
+            margin-right: 0em;
+        }
+    }
+    
+    iframe {
+        border: 1px solid black;
+    }
+    
+    .dark_text a {
+        color: #B4CEEE;
+        -webkit-text-fill-color: #B4CEEE;
+    }
+    
+    .dark_text {
+        color: #B4CEEE;
+        -webkit-text-fill-color: #B4CEEE;
+    }
+    
+    .dark_block {
+        background-color: rgb(10, 25, 43);
+        background: linear-gradient(to right, rgb(21, 53, 92) 50%, rgb(21, 53, 92) 50%);
+    }

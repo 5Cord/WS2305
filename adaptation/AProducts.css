@@ -1,0 +1,139 @@
+@media screen and (max-width: 1440px) {
+    .block_swiper img {
+        width: 70%;
+        height: 100%;
+        display: inline;
+    }
+    .pic_swiper {
+        margin: auto;
+    }
+    .text_swiper_big {
+        font-size: 35px;
+        line-height: 54px;
+    }
+    .block_swiper {
+        display: flex;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .pic_swiper {
+        margin: auto;
+    }
+    .text_swiper_big {
+        font-size: 23px;
+        line-height: 40px;
+    }
+    .block_swiper {
+        display: flex;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .swiper-mini img {
+        display: block;
+        width: 90%;
+        height: 90%;
+        object-fit: cover;
+    }
+    .ssilka {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .block_swiper img {
+        width: 70%;
+        height: 100%;
+        display: inline;
+    }
+    .pic_swiper {
+        margin: auto;
+    }
+    .text_swiper_big {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .block_swiper {
+        display: flex;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .swiper-mini img {
+        display: block;
+        width: 110%;
+        height: 110%;
+        object-fit: cover;
+    }
+    .ssilka {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .block_swiper img {
+        width: 70%;
+        height: 100%;
+        display: inline;
+    }
+    .pic_swiper {
+        margin: auto;
+    }
+    .text_swiper_big {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .block_swiper {
+        display: flex;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .text_swiper_big {
+        margin: auto 2% auto 8%;
+    }
+    .swiper-mini img {
+        display: block;
+        width: 170%;
+        height: 170%;
+        object-fit: cover;
+    }
+    .ssilka {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .text_swiper_big {
+        margin: auto 2% auto 8%;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .swiper-mini img {
+        display: block;
+        width: 170%;
+        height: 170%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .text_swiper_big {
+        margin: auto 2% auto 8%;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .swiper-mini img {
+        display: block;
+        width: 250%;
+        height: 250%;
+        object-fit: cover;
+    }
+}
+
+.text_RPord {
+    font-weight: 500;
+}

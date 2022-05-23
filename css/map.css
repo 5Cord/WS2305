@@ -1,0 +1,13 @@
+.bread_point a {
+    color: #1E71BF;
+    font-size: 1.5em;
+}
+
+.bread_point {
+    margin-left: 2em;
+    margin-bottom: -2em;
+}
+
+.dark_text a {
+    color: #B4CEEE;
+}

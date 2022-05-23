@@ -1,0 +1,272 @@
+a .text_footer:hover {
+    text-decoration: underline;
+}
+
+.icon_soc_footer {
+    transition: 1s;
+}
+
+.icon_soc_footer:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 1625px) {
+    .title_footer {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 42px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .text_footer {
+        margin-top: 5px;
+        list-style-type: none;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    .stolbec {
+        margin-right: 2em;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    /* Подвал */
+    .title_footer {
+        margin-top: 0em;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 42px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    footer {
+        background-color: #1E71BF;
+        position: relative;
+    }
+    .content_footer {
+        position: relative;
+        padding-top: 3em;
+        padding-bottom: 3em;
+        list-style-type: none;
+        flex-wrap: wrap;
+    }
+    .container_text_footer {
+        margin-top: 1em;
+    }
+    .text_footer {
+        margin-top: 5px;
+        list-style-type: none;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    .content_footer {
+        display: flex;
+    }
+    .contact {
+        margin-top: 1em;
+    }
+    .stolbec_logo {
+        margin: auto;
+    }
+    .stolbec {
+        margin-right: 2em;
+    }
+    .logo_footer {
+        width: 342px;
+        height: 55px;
+    }
+    .title_soc_footer {
+        text-align: right;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        text-transform: capitalize;
+        position: absolute;
+        left: 82.4%;
+        top: 80%;
+        color: #FFFFFF;
+    }
+    .container_soc_footer {
+        display: flex;
+        margin-top: 7em;
+    }
+    .icon_soc_footer img {
+        width: 50px;
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+    .logo_footer {
+        margin-top: 5em;
+    }
+}
+
+@media screen and (max-width: 1245px) {
+    /* Подвал */
+    .title_footer {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 42px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    footer {
+        background-color: #1E71BF;
+        position: relative;
+    }
+    .content_footer {
+        position: relative;
+        padding-top: 3em;
+        padding-bottom: 3em;
+        list-style-type: none;
+        flex-wrap: wrap;
+    }
+    .container_text_footer {
+        margin-top: 1em;
+    }
+    .text_footer {
+        margin-top: 5px;
+        list-style-type: none;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    .content_footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo_footer {
+        width: 342px;
+        height: 55px;
+    }
+    .title_soc_footer {
+        text-align: right;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        text-transform: capitalize;
+        position: absolute;
+        left: 82.4%;
+        top: 80%;
+        color: #FFFFFF;
+    }
+    .container_soc_footer {
+        display: flex;
+        margin-top: 7em;
+    }
+    .icon_soc_footer img {
+        width: 50px;
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+    .swiper2 {
+        margin-bottom: 2.688em;
+        background-color: #e8f1ff;
+    }
+    .logo_footer {
+        margin-top: 5em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .title_footer {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .text_footer {
+        margin-top: 5px;
+        list-style-type: none;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 1011px) {
+    .stolbec {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .title_footer {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .text_footer {
+        margin-top: 5px;
+        list-style-type: none;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        background-color: #1E71BF;
+        position: relative;
+    }
+    .title_footer {
+        font-weight: 500;
+        font-size: 0.9em;
+        line-height: 6px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .text_footer {
+        margin-top: 0px;
+        list-style-type: none;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 0.7em;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+    .logo_footer {
+        width: 150px;
+        height: 30px;
+    }
+    .logo_footer {
+        margin-top: 1em;
+    }
+    .stolbec_logo {
+        text-align: center;
+    }
+    .icon_soc_footer img {
+        width: 30px;
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+    .contact {
+        margin-bottom: 0.8em;
+    }
+    .stolbec {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 711px) {
+    .stolbec {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .stolbec {
+        display: none;
+    }
+}
