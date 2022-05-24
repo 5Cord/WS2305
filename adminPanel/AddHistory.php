@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../adaptation/H1.css">
+    <link rel="stylesheet" href="../css/MW.css">
+    <link rel="stylesheet" href="../css/EDNews.css">
     <link rel="stylesheet" href="AdaptaciaAll.css">
     <title>Добавление новости</title>
 </head>
 
 <body>
-<link rel="stylesheet" href="../css/MW.css">
-    <link rel="stylesheet" href="../css/EDNews.css">
     <div class="container">
-        <h1 class="h1">Добавление абзатца в историю</h1>
+        <h1 class="zagol black">Добавление абзац в историю</h1>
         <a class="none" href="History.html">Назад</a>
         <form action="" method="POST">
             <div class="row">

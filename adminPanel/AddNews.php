@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/MW.css">
     <link rel="stylesheet" href="../css/EDNews.css">
+    <link rel="stylesheet" href="../adaptation/H1.css">
     <link rel="stylesheet" href="AdaptaciaAll.css">
     <title>Добавление новости</title>
 </head>
 
 <body>
     <div class="container">
-        <h1 class="h1">Добавление новости</h1>
+        <h1 class="zagol black">Добавление новости</h1>
         <a class="none" href="News.html">Назад</a>
         <form action="" method="post">
             <div class="row">

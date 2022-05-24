@@ -3,12 +3,14 @@
 <html lang="ru">
 
 <head>
-    <title>Удаление обзатца истории</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+    <title>Удаление абзаца истории</title>
 </head>
 
 <body>
     <link rel="stylesheet" href="../css/EDNews.css">
     <link rel="stylesheet" href="AdaptaciaAll.css">
+    <link rel="stylesheet" href="../adaptation/H1.css">
     <?php
 
     if (isset($_GET['del_id'])) { //проверяем, есть ли переменная
@@ -24,7 +26,7 @@
 
   ?>
     <div class="container">
-        <h1 class="h1">Удалине новости</h1>
+        <h1 class="zagol black">Удаление абзаца истории</h1>
         <a class="none" href=History.html">Назад</a>
         <table border='1'>
             <tr>
@@ -36,9 +38,9 @@
       $sql = mysqli_query($connect, 'SELECT `ID`, `content` FROM `about`');
       while ($result = mysqli_fetch_array($sql)) {
         echo '<tr>' .
-             "<td>{$result['ID']}</td>" .
-             "<td>{$result['content']}</td>" .
-             "<div class='bg'><td><a href='?del_id={$result['ID']}'>Удалить</a></td></div>" .
+             "<td class='content'>{$result['ID']}</td>" .
+             "<td class='content'>{$result['content']}</td>" .
+             "<div class='bg'><td><a href='?del_id={$result['ID']}' class='butt'>Удалить</a></td></div>" .
              '</tr>';
       }
     ?>

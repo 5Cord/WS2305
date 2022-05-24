@@ -85,3 +85,13 @@ img {
     width: 30%;
     margin: auto;
 }
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}

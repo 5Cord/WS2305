@@ -3,12 +3,14 @@
 <html lang="ru">
 
 <head>
-    <title>Удаление страницы истории</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+  <title>Удаление страницы истории</title>
 </head>
 
 <body>
     <link rel="stylesheet" href="../css/EDNews.css">
     <link rel="stylesheet" href="AdaptaciaAll.css">
+    <link rel="stylesheet" href="../adaptation/H1.css">
     <?php
 
     if (isset($_GET['del_id'])) { //проверяем, есть ли переменная
@@ -24,9 +26,9 @@
 
   ?>
     <div class="container">
-        <h1 class="h1">Удалине новости</h1>
+        <h1 class="zagol black">Удаление страницы истории</h1>
         <a class="none" href="History.html">Назад</a>
-        <table border='1'>
+        <table class="DSI" border='1'>
             <tr>
                 <th>ID</th>
                 <th>Год</th>
@@ -39,12 +41,12 @@
       $sql = mysqli_query($connect, 'SELECT `ID`, `years`, `content`, `content1`, `pictures` FROM `history`');
       while ($result = mysqli_fetch_array($sql)) {
         echo '<tr>' .
-             "<td>{$result['ID']}</td>" .
-             "<td>{$result['years']}</td>" .
-             "<td>{$result['content']}</td>" .
-             "<td>{$result['content1']}</td>" .
-             "<td>{$result['pictures']}</td>" .
-             "<div class='bg'><td><a href='?del_id={$result['ID']}'>Удалить</a></td></div>" .
+             "<td class='content'>{$result['ID']}</td>" .
+             "<td class='content'>{$result['years']}</td>" .
+             "<td class='content'>{$result['content']}</td>" .
+             "<td class='content'>{$result['content1']}</td>" .
+             "<td><img src=../images/history/{$result['pictures']}></td>" .
+             "<div class='bg'><td><a class='butt' href='?del_id={$result['ID']}'>Удалить</a></td></div>" .
              '</tr>';
       }
     ?>

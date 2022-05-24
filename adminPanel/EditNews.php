@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="AdaptaciaAll.css">
+    <link rel="stylesheet" href="../css/EDNews.css">
+    <link rel="stylesheet" href="../adaptation/H1.css">
     <link rel="stylesheet" href="AdaptaciaAll.css">
     <title>Изменение новостей</title>
 </head>
 
 <body>
 
-    <link rel="stylesheet" href="../css/EDNews.css">
     <?php include '../connect/connect.php';?>
     <?php
     //Если передана переменная red_id, то надо обновлять данные. Для начала достанем их из БД
@@ -44,7 +44,7 @@ if (isset($_POST["title"])) {
         <h1 class="h1">Изменение новостей</h1>
         <a class="none" href="News.html">Назад</a>
         <form action="" method="post">
-            <table>
+            <table class="DSI">
                 <tr>
                     <td>Заголовок:</td>
                     <td><input type="text" name="title" value="<?= isset($_GET['red_id']) ? $product['title'] : ''; ?>">
@@ -66,7 +66,7 @@ if (isset($_POST["title"])) {
                             value="<?= isset($_GET['red_id']) ? $product['picture'] : ''; ?>"></td>
                 </tr>
                 <tr>
-                    <td colspan="2"><input type="submit" value="OK"></td>
+                    <td colspan="2"><input type="submit" value="Изменить"></td>
                 </tr>
             </table>
         </form>
@@ -84,12 +84,12 @@ if (isset($_POST["title"])) {
       $sql = mysqli_query($connect, 'SELECT `ID`, `title`, `content`, `date`, `picture` FROM `news`');
       while ($result = mysqli_fetch_array($sql)) {
         echo '<tr>' .
-             "<td>{$result['ID']}</td>" .
-             "<td>{$result['title']}</td>" .
-             "<td>{$result['content']}</td>" .
-             "<td>{$result['date']}</td>" .
-             "<td> <img src=../images/news/{$result['picture']}></td>" .
-             "<td><a class='a' href='?red_id={$result['ID']}'>Изменить</a></td>" .
+             "<td class='content'>{$result['ID']}</td>" .
+             "<td class='content'>{$result['title']}</td>" .
+             "<td class='content'>{$result['content']}</td>" .
+             "<td class='content'>{$result['date']}</td>" .
+             "<td class='content'><img src=../images/news/{$result['picture']}></td>" .
+             "<td><a class='a butt' href='?red_id={$result['ID']}'>Изменить</a></td>" .
              '</tr>';
       }
     ?>

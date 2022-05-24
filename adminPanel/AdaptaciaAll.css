@@ -1,38 +1,145 @@
-@media screen and (max-width: 1024px) {
-    input[type=text],
-    textarea {
-        width: 100%;
-        padding: 5px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-        resize: vertical;
-    }
-    input[type=date] {
-        width: 100%;
-        padding: 5px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-        resize: vertical;
-    }
-    input[type=submit] {
-        background-color: #4CAF50;
-        color: white;
-        padding: 10px 18px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        float: right;
-    }
-    label {
-        padding: 12px 12px 12px 0;
-        display: inline-block;
-        font-size: 80%;
-    }
-    .none {
-        color: black;
-        text-decoration: underline;
-        font-size: 90%;
-    }
-}
+            .content {
+                font-size: 100%;
+            }
+            
+            .butt {
+                font-size: 100%;
+            }
+            
+            td img {
+                width: 60%;
+            }
+            
+            @media screen and (max-width: 1024px) {
+                input[type=text],
+                textarea {
+                    width: 100%;
+                    padding: 5px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                    resize: vertical;
+                }
+                input[type=date] {
+                    width: 100%;
+                    padding: 5px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                    resize: vertical;
+                }
+                input[type=submit] {
+                    background-color: #4CAF50;
+                    color: white;
+                    padding: 10px 18px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    float: right;
+                }
+                label {
+                    padding: 12px 12px 12px 0;
+                    display: inline-block;
+                    font-size: 80%;
+                }
+                .none {
+                    color: black;
+                    text-decoration: underline;
+                    font-size: 90%;
+                }
+                .content {
+                    font-size: 70%;
+                }
+                .butt {
+                    font-size: 90%;
+                }
+                table th {
+                    font-size: 80%;
+                }
+            }
+            
+            @media screen and (max-width: 768px) {
+                .content {
+                    font-size: 80%;
+                }
+                .butt {
+                    font-size: 80%;
+                }
+                table th {
+                    font-size: 70%;
+                }
+                .none {
+                    color: black;
+                    text-decoration: underline;
+                    font-size: 70%;
+                }
+            }
+            
+            @media screen and (max-width: 475px) {
+                .content {
+                    font-size: 50%;
+                }
+                .butt {
+                    font-size: 40%;
+                }
+                table th {
+                    font-size: 50%;
+                }
+                td img {
+                    width: 80%;
+                }
+                .none {
+                    color: black;
+                    text-decoration: underline;
+                    font-size: 60%;
+                }
+                .DSI {
+                    font-size: 80%;
+                }
+            }
+            
+            @media screen and (max-width: 425px) {
+                input[type=text],
+                textarea {
+                    width: 100%;
+                    padding: 5px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                    resize: vertical;
+                    height: 20px;
+                    font-size: 60%;
+                }
+                input[type=date] {
+                    width: 100%;
+                    padding: 5px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                    resize: vertical;
+                    height: 20px;
+                    font-size: 60%;
+                }
+                input[type=submit] {
+                    background-color: #4CAF50;
+                    color: white;
+                    padding: 4px 8px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    float: right;
+                    margin-top: 1em;
+                    font-size: 60%;
+                }
+                input[type=file] {
+                    color: #4CAF50;
+                    padding: 8px 16px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    font-size: 60%;
+                }
+                tbody {
+                    font-size: 50%;
+                }
+            }

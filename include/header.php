@@ -47,7 +47,7 @@
                         <button type="submit"><img src="https://bumper-stickers.ru/30513-thickbox_default/lupa.jpg" alt=""></button> -->
                 <!-- </form> -->
                 <!-- </div> -->
-                <button class="DarkSwitchOn">Dark</button>
+                <button class="DarkSwitchOn">Тёмная тема</button>
             </div>
         </div>
     </nav>

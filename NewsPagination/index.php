@@ -49,7 +49,7 @@ while($article = mysqli_fetch_assoc($query)){
                     <img class="pic" src=../images/news/<?php echo $article["picture"] ?> alt="">
                 </div>
                 <div class="block_text_news">
-                    <div class="title_news light_text"><?php echo $article["title"] ?></div>
+				<div class="title_news light_text"><?php echo $article["title"] ?></div>
                     <div class="wstext_news light_text"><?php echo $article["content"] ?></div>
                     <div class="date"><?php echo $article["date"] ?></div>
                 </div>
