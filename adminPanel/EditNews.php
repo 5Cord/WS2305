@@ -64,7 +64,6 @@ if (isset($_POST["picture"])) {
                 <tr>
                     <td>Картинка</td>
                     <td><input type="file" accept=".jpg,.png,.jpeg" name="picture" id="poleFile" value="<?= isset($_GET['red_id']) ? $product['picture'] : ''; ?>"></td>
-                        <td><input type="nameFile" id="File" name="picture" value="<?= $product['picture']?>"></td>
                 </tr>
                 <tr>
                     <td colspan="2"><input type="submit" value="Изменить"></td>

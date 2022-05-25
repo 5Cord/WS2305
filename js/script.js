@@ -15,14 +15,6 @@ nav.forEach(function(e) {
 
 
 
-function fileName() {
-    let file = document.getElementById('File');
-    let poleFile = document.getElementById('poleFile');
-    console.log(poleFile.files);
-}
-
-setInterval(fileName(), 100);
-
 
 var swiper = new Swiper(".mySwiper", {
     speed: 2000,
