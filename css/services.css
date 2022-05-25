@@ -18,6 +18,7 @@
 
 .block_serv {
     transition: 1s;
+    margin-right: 2em;
 }
 
 .block_serv:hover {

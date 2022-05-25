@@ -21,7 +21,7 @@
         $product = mysqli_fetch_array($sql);
       }
 //Если переменная Name передана
-if (isset($_POST["title"])) {
+if (isset($_POST["picture"])) {
   //Если это запрос на обновление, то обновляем
   if (isset($_GET['red_id'])) {
       $sql = mysqli_query($connect, "UPDATE `news` SET `title` = '{$_POST['title']}', `content` = '{$_POST['content']}',`date` = '{$_POST['date']}',`picture` = '{$_POST['picture']}' WHERE `ID`={$_GET['red_id']}");
@@ -35,7 +35,8 @@ if (isset($_POST["title"])) {
     echo '<p class="utext">Успешно измененно!</p>';
     header("refresh: 5; EditNews.php");
   } else {
-    echo '<p>Произошла ошибка: ' . mysqli_error($connect) . '</p>';
+    echo '<p>Проверте заполненность всех полей<br>
+    Произошла ошибка: ' . mysqli_error($connect) . '</p>';
   }
 }
  ?>
@@ -62,8 +63,8 @@ if (isset($_POST["title"])) {
                 </tr>
                 <tr>
                     <td>Картинка</td>
-                    <td><input type="file" name="picture"
-                            value="<?= isset($_GET['red_id']) ? $product['picture'] : ''; ?>"></td>
+                    <td><input type="file" accept=".jpg,.png,.jpeg" name="picture" id="poleFile" value="<?= isset($_GET['red_id']) ? $product['picture'] : ''; ?>"></td>
+                        <td><input type="nameFile" id="File" name="picture" value="<?= $product['picture']?>"></td>
                 </tr>
                 <tr>
                     <td colspan="2"><input type="submit" value="Изменить"></td>
@@ -95,6 +96,7 @@ if (isset($_POST["title"])) {
     ?>
         </table>
     </div>
+<script src="../js/script.js"></script>
 </body>
 
 </html>

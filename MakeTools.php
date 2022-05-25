@@ -19,7 +19,6 @@
     <link rel="stylesheet" href="adaptation/H1.css">
     <link rel="stylesheet" href="adaptation/Astyle.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="adaptation/ANews.css">
     <link rel="stylesheet" href="adaptation/AFooter.css">
     <link rel="stylesheet" href="adaptation/AHeader.css">
     <link rel="stylesheet" href="css/MakeTools.css">

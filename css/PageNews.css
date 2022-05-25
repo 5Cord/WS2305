@@ -13,7 +13,6 @@
     text-transform: uppercase;
     text-overflow: ellipsis;
     overflow: hidden;
-    word-break: break-all;
     padding-right: 0.7em;
 }
 
@@ -54,7 +53,7 @@
     padding-left: 1em;
     padding-right: 1em;
     width: 20%;
-    background-color: #1D71BD;
+    background-color: #89c5ff
 }
 
 .actyal_news a {
@@ -91,7 +90,7 @@
 
 .date_actyal_news {
     font-size: 14px;
-    color: rgb(192, 192, 192);
+    color: rgb(255, 255, 255);
     font-style: italic;
     margin-top: -0.1em;
 }

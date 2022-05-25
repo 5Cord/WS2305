@@ -14,13 +14,13 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="adaptation/AHeader.css">
-    <link rel="stylesheet" href="adaptation/AFooter.css">
     <link rel="stylesheet" href="adaptation/Astyle.css">
     <link rel="stylesheet" href="css/history.css">
     <link rel="stylesheet" href="adaptation/H1.css">
-    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/map.css">
     <link rel="stylesheet" href="adaptation/Ahistory.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="adaptation/AFooter.css">
 </head> 
 
 <body>

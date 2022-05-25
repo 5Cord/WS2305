@@ -34,3 +34,16 @@
 .last {
     margin-bottom: 5em;
 }
+
+.noneDec {
+    text-decoration: none;
+    list-style: none;
+}
+
+.sved {
+    margin: -2em 0;
+}
+
+.point_documS:hover {
+    text-decoration: underline;
+}

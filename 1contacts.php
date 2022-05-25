@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="adaptation/AForma.css">
     <link rel="stylesheet" href="adaptation/AFooter.css">
     <link rel="stylesheet" href="adaptation/H1.css">
+    <link rel="stylesheet" href="adaptation/AStyle.css">
 </head>
 
 <body>

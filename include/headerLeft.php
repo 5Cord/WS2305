@@ -7,7 +7,7 @@
 <option class="light_SO" value="../history.php">ИСТОРИЯ</option>
 <option class="light_SO" value="../License.php">ЛИЦЕНЗИИ</option>
 <option class="light_SO" actio value="../Docum.php" target="_bank">ДОКУМЕНТЫ</option>
-<option class="light_SO" value="../PDF/Obych.pdf">ОБУЧЕНИЕ</option>
+<option class="light_SO" value="../Obychenie.php">ОБУЧЕНИЕ</option>
 
 </select>
 

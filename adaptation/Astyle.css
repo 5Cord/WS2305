@@ -102,10 +102,6 @@
     .ao_bg_color {
         background-color: #e8f1ff;
     }
-    .pic {
-        width: 94%;
-        border-radius: 9px;
-    }
     .AO_Container {
         display: flex;
         justify-content: space-between;
@@ -128,8 +124,8 @@
         padding-bottom: 1em;
     }
     .pic_ao img {
-        width: 40.773em;
-        height: 22.922em;
+        width: 28.773em;
+        height: 16.922em;
     }
     .text_RPord {
         position: absolute;
@@ -303,6 +299,11 @@
         text-transform: uppercase;
         font-weight: 600;
     }
+    .swiper1 {
+        width: 100%;
+        padding-bottom: 7%;
+        overflow: hidden;
+    }
 }
 
 @media screen and (max-width: 1072px) {
@@ -385,10 +386,6 @@
 @media screen and (max-width: 768px) {
     .swiper {
         display: none;
-    }
-    .pic {
-        width: 94%;
-        border-radius: 7px;
     }
     .text_ao {
         margin-left: 0em;

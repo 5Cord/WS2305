@@ -10,10 +10,18 @@ nav.forEach(function(e) {
     if (window.location.pathname.indexOf(e.getAttribute('href')) > -1) {
         e.classList.add('active_pag');
         console.log('dsfsd2');
-    } 
+    }
 });
 
 
+
+function fileName() {
+    let file = document.getElementById('File');
+    let poleFile = document.getElementById('poleFile');
+    console.log(poleFile.files);
+}
+
+setInterval(fileName(), 100);
 
 
 var swiper = new Swiper(".mySwiper", {
