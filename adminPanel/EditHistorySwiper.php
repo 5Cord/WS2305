@@ -22,26 +22,22 @@
         $sql = mysqli_query($connect, "SELECT `ID`, `years`, `content`, `content1`, `pictures` FROM `history` WHERE `ID`={$_GET['red_id']}");
         $product = mysqli_fetch_array($sql);
       }
-//Если переменная Name передана
-if (isset($_POST["years"])) {
-  //Если это запрос на обновление, то обновляем
+if (isset($_POST["submit"]) && $_POST["years"] && $_POST["content"] && $_POST["pictureText"]) {
   if (isset($_GET['red_id'])) {
       $sql = mysqli_query($connect, "UPDATE `history` SET `years` = '{$_POST['years']}', `content` = '{$_POST['content']}', `content1` = '{$_POST['content1']}', `pictures` = '{$_POST['pictureText']}' WHERE `ID`={$_GET['red_id']}");
   } else {
-      //Иначе вставляем данные, подставляя их в запрос
-      $sql = mysqli_query($connect, "INSERT INTO `history` (`years`, `content`, `content1`, `pictures`) VALUES ('{$_POST['years']}', '{$_POST['content']}', '{$_POST['content1']}', '{$_POST['pictureText']}')");
+      $sql = mysqli_query($connect, "INSERT INTO `history` (`years`, `content`, `content1`, `pictures`) VALUES ('{$_POST['years']}', '{$_POST['content']}','{$_POST['content1']}','{$_POST['pictureText']}')");
   }
 
-  //Если вставка прошла успешно
   if ($sql) {
     echo '<p class="utext">Успешно измененно!</p>';
     header("refresh: 5; EditHistorySwiper.php");
   } else {
     echo '<p>Проверте заполненность всех полей<br></p>';
-    // Произошла ошибка: ' . mysqli_error($connect) . 
   }
+}else{
+    echo '<p>Проверте заполненность всех полей<br></p>';
 }
-
 
  ?>
 
@@ -69,7 +65,7 @@ if (isset($_POST["years"])) {
                 </tr>
 
                 <tr>
-                    <td colspan="2"><input type="submit" value="Изменить"></td>
+                    <td colspan="2"><input type="submit" name="submit" value="Изменить"></td>
                 </tr>
             </table>
         </form>

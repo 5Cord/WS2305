@@ -22,23 +22,18 @@
         $sql = mysqli_query($connect, "SELECT `ID`, `title`, `content`, `date`, `picture` FROM `news` WHERE `ID`={$_GET['red_id']}");
         $product = mysqli_fetch_array($sql);
       }
-//Если переменная Name передана
-if (isset($_POST["title"])) {
-    //Если это запрос на обновление, то обновляем
+if (isset($_POST["submit"])) {
     if (isset($_GET['red_id'])) {
       $sql = mysqli_query($connect, "UPDATE `news` SET `title` = '{$_POST['title']}', `content` = '{$_POST['content']}',`date` = '{$_POST['date']}',`picture` = '{$_POST['pictureText']}' WHERE `ID`={$_GET['red_id']}");
   } else {
-      //Иначе вставляем данные, подставляя их в запрос
-      $sql = mysqli_query($connect, "INSERT INTO `news` (`title`, `content`, `date`, `picture`) VALUES ('{$_POST['title']}', '{$_POST['content']}','{$_POST['date']}','{$_POST['pictureText']}')");
+      $sql = mysqli_query($connect, "INSERT INTO `news` (`title`, `content`, `date`, `picture`) VALUES ('{$_POST['title']}','{$_POST['content']}','{$_POST['date']}','{$_POST['pictureText']}')");
   }
 
-  //Если вставка прошла успешно
   if ($sql) {
     echo '<p class="utext">Успешно измененно!</p>';
     header("refresh: 5; EditNews.php");
   } else {
     echo '<p>Проверте заполненность всех полей<br></p>';
-    // Произошла ошибка: ' . mysqli_error($connect) . 
   }
 }
 
@@ -70,7 +65,7 @@ if (isset($_POST["title"])) {
                     <td><input type="text" name="pictureText" id="TextFile" class="TextFile" value="<?= isset($_GET['red_id']) ? $product['picture'] : $newPer; ?>"></td>
                 </tr>
                 <tr>
-                    <td colspan="2"><input type="submit" value="Изменить"></td>
+                    <td colspan="2"><input type="submit" name="submit" value="Изменить"></td>
                 </tr>
             </table>
         </form>
