@@ -12,8 +12,8 @@ body {
     font-size: 3em;
     font-weight: 200;
     text-align: center;
-    color: #000000; 
-} 
+    color: #000000;
+}
 
 .left_menu {
     display: flex;
@@ -26,16 +26,17 @@ body {
 }
 
 .point_left {
-    padding: 1em 0em;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
     background-color: #9bbeff;
-    width: 100%;
+    padding: 1em 0;
 }
 
-.point_left:hover {
-    padding: 1em 0em;
+
+/* .point_left:hover {
     background-color: #6ea1ff;
-    width: 100%;
-}
+} */
 
 a {
     padding-left: 1em;

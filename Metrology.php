@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="adaptation/AHeader.css">
     <link rel="stylesheet" href="css/MakeTools.css">
     <link rel="stylesheet" href="css/DarkThems.css">
+    <link rel="stylesheet" href="css/map.css">
     <link rel="stylesheet" href="adaptation/AMakeTools.css">
     <style>
         
@@ -34,6 +35,11 @@
     <?php include 'include/header-swiper.php'; ?>
 
     <div class="container">
+    <div class="bread_point light_text">
+    <a href="#"  onclick="javascript:history.back(); return false;">Услуги-></a>
+        <a href="Metrology.php">Метрология</a>
+    </div>
+
     <div class="zagol light_text">МЕТРОЛОГИЯ</div>   
     <div class="zagol zagol_mini light_text">Акционерное Общество «Белебеевский завод «Автонормаль» выполняет следующие виды работ:</div>
             <ul class="ul light_text">

@@ -70,12 +70,12 @@
                     <div class="block_contact">
                         <div class="title_cont"></div>
                         <div class="name_cont light_text">НАЧАЛЬНИК ОТДЕЛА СИСТЕМЫ МЕНЕДЖМЕНТА КАЧЕСТВА И СТАНДАРТИЗАЦИИ:</div>
-                        <div class="tel_cont light_text"><a class="light_text" href="+73478661558">+7 (34786) 6-15-58</a></div>
+                        <div class="tel_cont light_text"><a class="light_text" href="tel:+73478661558">+7 (34786) 6-15-58</a></div>
                     </div>
                     <div class="block_contact">
                         <div class="title_cont"></div>
                         <div class="name_cont light_text"> СПРАВОЧНАЯ СЛУЖБА:</div>
-                        <div class="tel_cont light_text"><a class="light_text" href="+73478661209">+7 (34786) 6-12-09</a></div>
+                        <div class="tel_cont light_text"><a class="light_text" href="tel:+73478661209">+7 (34786) 6-12-09</a></div>
                     </div>
                 </div>
 

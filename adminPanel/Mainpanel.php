@@ -12,11 +12,37 @@
 <body>
     <div class="text_header">АО "БелЗАН"</div>
     <div class="left_menu">
-        <div class="point_left"><a target="iframe_a" href="News.html">Новости</a></div>
-        <div class="point_left"><a target="iframe_a" href="History.html">История</a></div>
-        <div class="point_left"><a target="iframe_a" href="FeedBack.php">Обратная связь</a></div>
-        <a href="#"></a>
-    </div>
+        
+        <a href=<?
+    $link=mysqli_connect("192.168.88.24", "5cord", "5cord", "belzan");
+    $query=mysqli_query($link, "SELECT * FROM users WHERE id='". intval($_COOKIE['id'])."'Limit 1");
+    $userdata=mysqli_fetch_assoc($query);
+    if((true==$_COOKIE['hash']) and (true==$_COOKIE['id'])){
+      print("Registr/Logout.php");
+    }
+    else{
+      print("Registr/Login.php");
+    }
+    ?><?
+    $link=mysqli_connect("192.168.88.24", "5cord", "5cord", "belzan");
+    $query=mysqli_query($link, "SELECT * FROM users WHERE id='". intval($_COOKIE['id'])."'Limit 1");
+    $userdata=mysqli_fetch_assoc($query);
+    if((true==$_COOKIE['hash']) and (true==$_COOKIE['id'])){
+      print $userdata[''];
+    }
+    else{
+      print("");
+    }
+    ?> class="ex AHeader"><?php 
+    if((true==$_COOKIE['hash']) and (true==$_COOKIE['id'])){
+        print '<div class="point_left">Выйти</div>';
+        echo '<a target="iframe_a" href="News.html"><div class="point_left">Новости</div></a>
+        <a target="iframe_a" href="History.html"><div class="point_left">История</div></a>
+        <a target="iframe_a" href="FeedBack.php"><div class="point_left">Обратная связь</div></a>';
+      }else{
+        print '<div class="point_left">Войти</div>';   
+      }
+    ?></div>
     <iframe name="iframe_a" src="" frameborder="0" w></iframe>
 </body>
 </html>

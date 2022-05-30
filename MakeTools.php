@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="adaptation/AHeader.css">
     <link rel="stylesheet" href="css/MakeTools.css">
     <link rel="stylesheet" href="css/DarkThems.css">
+    <link rel="stylesheet" href="css/map.css">
     <link rel="stylesheet" href="adaptation/AMakeTools.css">
     <style>
         
@@ -34,6 +35,12 @@
     <?php include 'include/header-swiper.php'; ?>
 
     <div class="container">
+
+    <div class="bread_point light_text">
+        <a href="#"  onclick="javascript:history.back(); return false;">Услуги-></a>
+        <a href="Docum.php">Изготовление документа</a>
+    </div>
+
         <div class="zagol light_text">ИЗГОТОВЛЕНИЕ ИНСТРУМЕНТА</div>
         <div class="SS light_text"><a class="light_text" href="https://www.belzan.ru/service/ИП%20презентация.ppt">Призентация возможностей инструментального производства</a></div>
         <div class="zagol black light_text">ПРОФИЛЬ ИНСТРУМЕНТАЛЬНОГО ПРОИЗВОДСТВА</div>

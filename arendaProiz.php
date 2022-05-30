@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="adaptation/AHeader.css">
     <link rel="stylesheet" href="css/MakeTools.css">
     <link rel="stylesheet" href="css/DarkThems.css">
+    <link rel="stylesheet" href="css/map.css">
     <link rel="stylesheet" href="adaptation/AMakeTools.css">
     <style>
         .imgg_instrum {
@@ -37,6 +38,11 @@
     <?php include 'include/header-swiper.php'; ?>
 
     <div class="container">
+
+    <div class="bread_point light_text">
+    <a href="#"  onclick="javascript:history.back(); return false;">Услуги-></a>
+        <a href="arendaProiz.php">Аренда</a>
+    </div>
         <div class="zagol light_text">АРЕНДА ПРОИЗВОДСТВЕННЫХ ПОМЕЩЕНИЙ И ОБОРУДОВАНИЯ</div>
         <div class="instrum light_text"></div>
         

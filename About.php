@@ -32,14 +32,14 @@
                 <div class="block_text_lm">
 
                 <div class="point_left_menu light_text">
-                    <a href="map.php">География присутсвия</a>
+                    <a target="_blank" href="map.php">География присутсвия</a>
                 </div>
 
                 <div class="point_left_menu light_text">
-                    <a href="History.php">История</a>
+                    <a target="_blank" href="History.php">История</a>
                 </div>
                 <div class="point_left_menu light_text">
-                    <a href="License.php">Лицензии</a>
+                    <a target="_blank" href="License.php">Лицензии</a>
                 </div>
                 <div class="point_left_menu light_text">
                     <a target="_blank" href="Docum.php">Документы</a>

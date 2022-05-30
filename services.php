@@ -29,13 +29,13 @@
     <div class="container_body container_servisec">
         <div class="zagol light_text">Услуги</div>
         <div class="servisec">
-            <a href="MakeTools.php" target="_blank" class="block_serv">
+            <a href="MakeTools.php"  class="block_serv">
                 <div class="block_img_serv">
                     <img src="images/swiper/izgInstr.png" alt="">
                 </div>
                 <div class="text_servisec TS_big light_text">Изготовление инструмента</div>
             </a>
-            <a href="arendaProiz.php" target="_blank" class="block_serv">
+            <a href="arendaProiz.php"  class="block_serv">
                 <div class="block_img_serv">
                     <img src="images/swiper/arenda.png" alt="">
                 </div>
@@ -44,14 +44,14 @@
         </div>
 
         <div class="servisec">
-            <a href="Prez.html" target="_blank" class="block_serv">
+            <a href="Prez.html" target="_bank" class="block_serv">
                 <div class="block_img_serv">
                     <img src="images/swiper/zashita.png" alt="">
                 </div>
                 <div class="text_servisec TS_big light_text">Нанесение защитных покрытий</div>
             </a>
 
-            <a href="Metrology.php" target="_blank" class="block_serv">
+            <a href="Metrology.php"  class="block_serv">
                 <div class="block_img_serv">
                     <img src="images/swiper/metro.png" alt="">
                 </div>
@@ -60,13 +60,13 @@
         </div>
 
         <div class="servisec">
-            <a href="TermObrab.php" target="_blank" class="block_serv">
+            <a href="TermObrab.php"  class="block_serv">
                 <div class="block_img_serv">
                     <img src="images/swiper/termo.png" alt="">
                 </div>
                 <div class="text_servisec TS_big light_text">Термическая обработка</div>
             </a>
-            <a href="Azot.php" target="_blank"  class="block_serv">
+            <a href="Azot.php"   class="block_serv">
             <div class="block_img_serv">
                 <img src="images/swiper/azot.png" alt="">
             </div>

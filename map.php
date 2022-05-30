@@ -18,9 +18,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="adaptation/H1.css">
     <link rel="stylesheet" href="adaptation/Astyle.css">
-    <link rel="stylesheet" href="css/map.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="adaptation/ANews.css">
+    <link rel="stylesheet" href="css/map.css">
     <link rel="stylesheet" href="adaptation/AFooter.css">
     <link rel="stylesheet" href="adaptation/AHeader.css">
     <!-- <link rel="stylesheet" href="DarkTheme/Dark.css"> -->
@@ -36,7 +36,7 @@
     <?php include 'include/header-swiper.php'; ?>
 
     <div class="bread_point light_text">
-        <a href="About.php">О компании-></a>
+    <a href="#"  onclick="javascript:history.back(); return false;">О компании-></a>
         <a href="map.php">География присутсвия</a>
     </div>
     <div class="container">

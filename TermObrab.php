@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Изготовление инструмента</title>
+    <title>Термическая обработка</title>
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
     <!-- Link Swiper's CSS -->
@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="adaptation/AHeader.css">
     <link rel="stylesheet" href="css/MakeTools.css">
     <link rel="stylesheet" href="css/DarkThems.css">
+    <link rel="stylesheet" href="css/map.css">
     <link rel="stylesheet" href="adaptation/AMakeTools.css">
     <style>
         
@@ -35,6 +36,12 @@
     <?php include 'include/header-swiper.php'; ?>
 
     <div class="container">
+
+    <div class="bread_point light_text">
+    <a href="#"  onclick="javascript:history.back(); return false;">Услуги-></a>
+        <a href="TermObrab.php">Термическая обработка</a>
+    </div>
+    
         <div class="zagol light_text">ТЕРМИЧЕСКАЯ ОБРАБОТКА</div>
         <div class="zagol zagol_mini light_text"><a class="SS light_text" href="PDF/term1.pdf">Информация по видам термообработки изделий в АО «БелЗАН»</a></div>
         

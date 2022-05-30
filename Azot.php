@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="adaptation/AHeader.css">
     <link rel="stylesheet" href="css/MakeTools.css">
     <link rel="stylesheet" href="css/DarkThems.css">
+    <link rel="stylesheet" href="css/map.css">
     <link rel="stylesheet" href="adaptation/AMakeTools.css">
     <style>
         
@@ -35,6 +36,12 @@
     <?php include 'include/header-swiper.php'; ?>
 
     <div class="container">
+
+    <div class="bread_point light_text">
+    <a href="#"  onclick="javascript:history.back(); return false;">Услуги-></a>
+        <a href="TermObrab.php">Азотно кислородная-станция</a>
+    </div>
+
         <div class="zagol light_text">АЗОТНО-КИСЛОРОДНАЯ СТАНЦИЯ</div>
         <div class="zagol black light_text">ПРОДУКЦИЯ АКС</div>
         <div class="instrum light_text">Компания АО «БелЗАН» азотно-кислородная станция имеет собственное производство технических

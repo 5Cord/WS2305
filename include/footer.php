@@ -36,11 +36,11 @@
         <div class="stolbec">
             <div class="title_footer">Телефон:</div>
             <div class="container_text_footer">
-                <div class="text_footer"><a href="+73478661209">+7(34786) 6-12-09</a></div>
+                <div class="text_footer"><a href="tel:+73478661209">+7(34786) 6-12-09</a></div>
                 <div class="title_footer contact">Факс:</div>
-                <div class="text_footer"><a href="+73478630190">+7 (34786) 3-01-90</a></div>
+                <div class="text_footer"><a href="tel:+73478630190">+7 (34786) 3-01-90</a></div>
                 <div class="title_footer contact">E-Mail:</div>
-                <div class="text_footer"><a href="mailto:belzan@belzan.ru">belzan@belzan.ru</a></div>
+                <div class="text_footer"><a href="mailto:belzsan@belzan.ru">belzan@belzan.ru</a></div>
             </div>  
         </div>
 

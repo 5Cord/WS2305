@@ -51,7 +51,7 @@ $resActual= mysqli_query($connect, "SELECT * FROM `news`  ORDER BY id DESC LIMIT
                 ?>
             <div class="main_news">
             <div class="bread_point light_text">
-                <a href="News.php" class="light_text">Назад</a>
+                <a href="News.php" class="light_text" onclick="javascript:history.back(); return false;">Назад</a>
             </div>   
                 <div class="up_container">
                     <div class="date_news light_text"><?php echo $news["date"]?></div>

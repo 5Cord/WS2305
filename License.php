@@ -30,7 +30,7 @@
 
     <!-- Swiper -->
     <div class="bread_point light_text">
-        <a href="About.php" class="light_text">О компании-></a>
+        <a href="#"  onclick="javascript:history.back(); return false;">О компании-></a>
         <a href="map.php" class="light_text">Лицензии</a>
     </div>
     <div class="zagol light_text" >Лицензии</div>

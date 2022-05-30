@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="adaptation/AHeader.css">
     <link rel="stylesheet" href="css/MakeTools.css">
     <link rel="stylesheet" href="css/DarkThems.css">
+    <link rel="stylesheet" href="css/map.css">
     <link rel="stylesheet" href="adaptation/AMakeTools.css">
     <style>
         
@@ -34,6 +35,10 @@
     <?php include 'include/header-swiper.php'; ?>
 
     <div class="container">
+    <div class="bread_point light_text">
+        <a href="#"  onclick="javascript:history.back(); return false;">О компании-></a>
+        <a href="Obychenie.php">Обучение</a>
+    </div>
         <div class="zagol light_text">Обучение</div>
         <div class="main_sveden">
             <div class="zagol black light_text">Основные сведения</div>
@@ -68,7 +73,7 @@
                 <li class="li light_text noneDec">Группа по организации обучения и развития персонала: </li>
                 <li class="li light_text noneDec"> инженеры по подготовке кадров</li>
             </ul>
-            <div class="zagol zagol_mini light_text"><a class="point_documS light_text" href="ObychD.pdf">Документы</a></div>
+            <div class="zagol zagol_mini light_text"><a class="point_documS light_text" target="_bank" href="../PDF/ObychD.pdf">Документы</a></div>
             <div class="zagol zagol_mini light_text">Образование</div>
             <div class="instrum light_text">В соответствии с Лицензией на право ведения образовательной деятельности и Уставом, АО «БелЗАН» осуществляет деятельность:  
                 </div>
@@ -106,7 +111,7 @@
                         <li class="li">Учебные фильмы</li>
                     </ul>
                     <div class="instrum light_text">Обучение осуществляется на средства АО «БелЗАН», бесплатно для обучаемых.</div>
-                    <div class="zagol zagol_mini light_text"><a class="point_documS light_text" href="ObychOP.pdf">Образовательные программы:</a></div>
+                    <div class="zagol zagol_mini light_text"><a class="point_documS light_text" target="_bank" href="../PDF/ObychOP.pdf">Образовательные программы:</a></div>
                 </div>
             
                 <?php include "include/footer.php" ?>

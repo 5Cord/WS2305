@@ -27,7 +27,7 @@
     <?php include 'include/header.php'; ?>
 
     <div class="bread_point light_text">
-        <a href="About.php">О компании-></a>
+        <a href="#"  onclick="javascript:history.back(); return false;">О компании-></a>
         <a href="history.php">История</a>
     </div>
 
