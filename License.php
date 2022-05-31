@@ -1,4 +1,4 @@
-<?php include 'connect/connect.php';?>
+<?php include 'connect/connect.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,67 +30,63 @@
 
     <!-- Swiper -->
     <div class="bread_point light_text">
-        <a href="#"  onclick="javascript:history.back(); return false;">О компании-></a>
+        <a href="#" onclick="javascript:history.back(); return false;">О компании-></a>
         <a href="map.php" class="light_text">Лицензии</a>
     </div>
-    <div class="zagol light_text" >Лицензии</div>
+    <div class="zagol light_text">Лицензии</div>
     <div class="container">
         <div class="roww">
             <div class="coll light_block">
-                <img src="images/License/1.jpg" alt="">
+                <img src="images/License/1.jpg" alt="Licenses">
                 <div class="text_col light_text">ЛИЦЕНЗИЯ НА ОСУЩЕСТВЛЕНИЕ РАЗРАБОТКИ, ПРОИЗВОДСТВА, ИСПЫТАНИЯ И РЕМОНТА АВИАЦИОННОЙ ТЕХНИКИ</div>
                 <div class="date_col light_block light_text">18.11.2013</div>
             </div>
             <div class="coll light_block">
-                <img src="images/License/4.jpg" alt="">
+                <img src="images/License/4.jpg" alt="Licenses">
                 <div class="text_col light_text">ЛИЦЕНЗИЯ НА ОСУЩЕСТВЛЕНИЕ ПОГРУЗОЧНО-РАЗГРУЗОЧНОЙ ДЕЯТЕЛЬНОСТИ ПРИМЕНИТЕЛЬНО К ОПАСНЫМ ГРУЗАМ НА ЖЕЛЕЗНОДОРОЖНОМ ТРАНСПОРТЕ
-</div>
+                </div>
                 <div class="date_col light_block light_text">30.12.2009</div>
             </div>
             <div class="coll light_block">
-                <img src="images/License/3.jpg" alt="">
+                <img src="images/License/3.jpg" alt="Licenses">
                 <div class="text_col light_text">ЛИЦЕНЗИЯ НА ЭКСПЛУАТАЦИЮ ВЗРЫВОПОЖАРООПАСНЫХ И ХИМИЧЕСКИ ОПАСНЫХ ПРОИЗВОДСТВЕННЫХ ОБЪЕКТОВ I, II И III КЛАССОВ ОПАСНОСТИ
-</div>
+                </div>
                 <div class="date_col light_block light_text">09.02.2015</div>
             </div>
             <div class="coll light_block">
-                <img src="images/License/2.jpg" alt="">
+                <img src="images/License/2.jpg" alt="Licenses">
                 <div class="text_col light_text">ЛИЦЕНЗИЯ НА МОНТАЖ, ТЕХНИЧЕСКОЕ ОБСЛУЖИВАНИЕ И РЕМОНТ СРЕДСТВ ОБЕСПЕЧЕНИЯ ПОЖАРНОЙ БЕЗОПАСНОСТИ ЗДАНИЙ И СООРУЖЕНИЙ
-</div>
+                </div>
                 <div class="date_col light_block light_text">30.07.2013</div>
             </div>
             <div class="coll light_block">
-                <img src="images/License/5.jpg" alt="">
+                <img src="images/License/5.jpg" alt="Licenses">
                 <div class="text_col  light_text">ЛИЦЕНЗИЯ НА ТУШЕНИЕ ПОЖАРОВ В НАСЕЛЕННЫХ ПУНКТАХ, НА ПРОИЗВОДСТВЕННЫХ ОБЪЕКТАХ И ОБЪЕКТАХ ИНФРАСТРУКТУРЫ, ПО ТУШЕНИЮ ЛЕСНЫХ ПОЖАРОВ
-</div>
+                </div>
                 <div class="date_col light_block light_text">30.07.2013</div>
             </div>
 
             <div class="coll light_block">
-                <img src="images/License/6.jpg" alt="">
+                <img src="images/License/6.jpg" alt="Licenses">
                 <div class="text_col light_text">ЛИЦЕНЗИЯ НА ЗАГОТОВКУ, ХРАНЕНИЕ, ПЕРЕРАБОТКУ И РЕАЛИЗАЦИЮ ЛОМА ЧЕРНЫХ МЕТАЛЛОВ, ЦВЕТНЫХ МЕТАЛЛОВ
-</div>
+                </div>
                 <div class="date_col light_block light_text">03.07.2017</div>
             </div>
             <div class="coll light_block">
-                <img src="images/License/7.jpg" alt="">
+                <img src="images/License/7.jpg" alt="Licenses">
                 <div class="text_col light_text">ЛИЦЕНЗИЯ НА ПРАВО ОСУЩЕСТВЛЕНИЯ МЕДИЦИНСКОЙ ДЕЯТЕЛЬНОСТИ (МИНИСТЕРСТВО ЗДРАВООХРАНЕНИЯ)
-</div>
+                </div>
                 <div class="date_col light_block light_text">24.01.2019</div>
             </div>
             <div class="coll light_block">
-                <img src="images/License/8.jpg" alt="">
+                <img src="images/License/8.jpg" alt="Licenses">
                 <div class="text_col light_text">ЛИЦЕНЗИЯ НА ПРАВО ОСУЩЕСТВЛЕНИЯ ОБРАЗОВАТЕЛЬНОЙ ДЕЯТЕЛЬНОСТИ (МИНИСТРЕСТВО ОБРАЗОВАНИЯ)
-</div>
+                </div>
                 <div class="date_col light_block light_text">19.12.2005</div>
             </div>
-            
-
-
         </div>
     </div>
-
-   <?php include "include/footer.php" ?>
+    <?php include "include/footer.php" ?>
 
     <!-- <div class="map">
 <iframe frameborder=0 style='width:90%;height:500px' src='//www.zeemaps.com/pub?group=4367515'> </iframe>

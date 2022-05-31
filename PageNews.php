@@ -1,7 +1,7 @@
 <?php include 'connect/connect.php';
-$res= mysqli_query($connect, "SELECT * FROM `news` WHERE id = \"".$_GET['id']."\"");
+$res = mysqli_query($connect, "SELECT * FROM `news` WHERE id = \"" . $_GET['id'] . "\"");
 
-$resActual= mysqli_query($connect, "SELECT * FROM `news`  ORDER BY id DESC LIMIT 3");
+$resActual = mysqli_query($connect, "SELECT * FROM `news`  ORDER BY id DESC LIMIT 3");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -32,41 +32,40 @@ $resActual= mysqli_query($connect, "SELECT * FROM `news`  ORDER BY id DESC LIMIT
 
     <!-- <?php include 'include/header-swiper.php'; ?> -->
 
-    <div class="container"> 
+    <div class="container">
         <div class="two_rows_news">
             <div class="actyal_news light_block">
                 <div class="main_title_actyal_news">Актуальные новости</div>
                 <?php
-            while ($ActualNews = mysqli_fetch_assoc($resActual)){
+                while ($ActualNews = mysqli_fetch_assoc($resActual)) {
                 ?>
-                <div class="block_actyal_news">
-                    <a href=/PageNews.php?id=<?php echo $ActualNews["id"]?>
-                        class="title_actyal_news"><?php echo $ActualNews["title"] ?></a>
-                    <div class="date_actyal_news"><?php echo $ActualNews["date"]?></div>
-                </div>
-                <?php }?>
+                    <div class="block_actyal_news">
+                        <a href=/PageNews.php?id=<?php echo $ActualNews["id"] ?> class="title_actyal_news"><?php echo $ActualNews["title"] ?></a>
+                        <div class="date_actyal_news"><?php echo $ActualNews["date"] ?></div>
+                    </div>
+                <?php } ?>
             </div>
             <?php
-            while ($news = mysqli_fetch_assoc($res)){
-                ?>
-            <div class="main_news">
-            <div class="bread_point light_text">
-                <a href="News.php" class="light_text" onclick="javascript:history.back(); return false;">Назад</a>
-            </div>   
-                <div class="up_container">
-                    <div class="date_news light_text"><?php echo $news["date"]?></div>
-                    <div class="bg_title">
-                        <div class="title_news light_text"><?php echo $news["title"] ?></div>
+            while ($news = mysqli_fetch_assoc($res)) {
+            ?>
+                <div class="main_news">
+                    <div class="bread_point light_text">
+                        <a href="News.php" class="light_text" onclick="javascript:history.back(); return false;">Назад</a>
+                    </div>
+                    <div class="up_container">
+                        <div class="date_news light_text"><?php echo $news["date"] ?></div>
+                        <div class="bg_title">
+                            <div class="title_news light_text"><?php echo $news["title"] ?></div>
+                        </div>
+                    </div>
+                    <div class="text_news light_text">
+                        <?php echo $news["content"] ?>
+                    </div>
+                    <div class="pictures_news">
+                        <img src=images/news/<?php echo $news["picture"] ?> alt="ImagesNews">
                     </div>
                 </div>
-                <div class="text_news light_text">
-                    <?php echo $news["content"] ?>
-                </div>
-                <div class="pictures_news">
-                    <img src=images/news/<?php echo $news["picture"] ?> alt="">
-                </div>
-            </div>
-            <?php }?>
+            <?php } ?>
         </div>
     </div>
 </body>

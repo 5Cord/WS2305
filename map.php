@@ -1,4 +1,4 @@
-<?php include 'connect/connect.php';?>
+<?php include 'connect/connect.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,7 +36,7 @@
     <?php include 'include/header-swiper.php'; ?>
 
     <div class="bread_point light_text">
-    <a href="#"  onclick="javascript:history.back(); return false;">О компании-></a>
+        <a href="#" onclick="javascript:history.back(); return false;">О компании-></a>
         <a href="map.php">География присутсвия</a>
     </div>
     <div class="container">
@@ -45,7 +45,7 @@
     <div class="map">
         <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A46f2b211bf0f4343b8736474eed9535b1b9d0560161499286d1ee86d9a15c02c&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
     </div>
-   <?php include "include/footer.php" ?>
+    <?php include "include/footer.php" ?>
 
     <!-- <div class="map">
 <iframe frameborder=0 style='width:90%;height:500px' src='//www.zeemaps.com/pub?group=4367515'> </iframe>

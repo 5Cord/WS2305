@@ -1,75 +1,58 @@
     @media screen and (max-width: 1440px) {
-        a {
-            display: inline-block;
-            vertical-align: top;
-            margin: 0 auto;
-            background-color: #9bbeff;
-        }
         .text_header {
             font-size: 2.5em;
         }
     }
     
     @media screen and (max-width: 1200px) {
-        a {
-            padding-left: 1em;
-            text-decoration: none;
-            color: #000000;
-            font-size: 1.4em;
-            font-weight: 200;
-        }
         .text_header {
             font-size: 2.4em;
+        }
+        a {
+            font-size: 120%;
+        }
+        .a {
+            font-size: 110%;
         }
     }
     
     @media screen and (max-width: 910px) {
-        a {
-            padding-left: 1em;
-            text-decoration: none;
-            color: #000000;
-            font-size: 1.1em;
-            font-weight: 200;
-        }
         .text_header {
             font-size: 2.4em;
+        }
+        a {
+            font-size: 110%;
+        }
+        .a {
+            font-size: 100%;
         }
     }
     
     @media screen and (max-width: 768px) {
-        a {
-            padding-left: 1em;
-            text-decoration: none;
-            color: #000000;
-            font-size: 0.8em;
-            font-weight: 200;
-        }
         .text_header {
             font-size: 2em;
         }
+        .text_frame {
+            font-size: 100%;
+        }
+        .a {
+            font-size: 90%;
+        }
     }
     
-    @media screen and (max-width: 525px) {
-        a {
-            padding-left: 1em;
-            text-decoration: none;
-            color: #000000;
-            font-size: 0.5em;
-            font-weight: 600;
-        }
+    @media screen and (max-width: 595px) {
         .text_header {
             font-size: 1.5em;
+        }
+        a {
+            font-size: 90%;
+        }
+        .a {
+            font-size: 80%;
         }
     }
     
     @media screen and (max-width: 350px) {
-        a {
-            padding-left: 0.4em;
-            text-decoration: none;
-            color: #000000;
-            font-size: 0.5em;
-            font-weight: 600;
-        }
         .text_header {
             font-size: 1em;
         }

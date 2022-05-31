@@ -1,4 +1,4 @@
-<?php include 'connect/connect.php';?>
+<?php include 'connect/connect.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,11 +22,11 @@
     <link rel="stylesheet" href="adaptation/Astyle.css">
     <link rel="stylesheet" href="adaptation/AFooter.css">
     <link rel="stylesheet" href="adaptation/ANews.css">
-</head> 
-  
-<body class="light"> 
+</head>
+
+<body class="light">
     <?php include 'include/header.php'; ?>
- 
+
     <!-- Swiper -->
     <?php include 'include/header-swiper.php'; ?>
 
@@ -45,21 +45,21 @@
     <div class="container" class="aos aos--second" data-aos="zoom-in">
         <div class="zagol light_text" class="headline">Новости</div>
         <div class="container_news ">
-            <?php 
-      $res= mysqli_query($connect, "SELECT * FROM `news` ORDER BY id DESC LIMIT 3");
-      while ($news = mysqli_fetch_assoc($res)){
-      ?>
-            <a href=/PageNews.php?id=<?php echo $news["id"]?> class="block_news light_block">
-                <div class="block_pic_news">
-                    <img class="pic" src=images/news/<?php echo $news["picture"] ?> alt="">
-                </div>
-                <div class="block_text_news">
-                    <div class="title_news light_text"><?php echo $news["title"] ?></div>
-                    <div class="wstext_news light_text"><?php echo $news["content"] ?></div>
-                    <div class="date"><?php echo $news["date"] ?></div>
-                </div>
-            </a>
-            <?php }?>
+            <?php
+            $res = mysqli_query($connect, "SELECT * FROM `news` ORDER BY id DESC LIMIT 3");
+            while ($news = mysqli_fetch_assoc($res)) {
+            ?>
+                <a href=/PageNews.php?id=<?php echo $news["id"] ?> class="block_news light_block">
+                    <div class="block_pic_news">
+                        <img class="pic" src=images/news/<?php echo $news["picture"] ?> alt="">
+                    </div>
+                    <div class="block_text_news">
+                        <div class="title_news light_text"><?php echo $news["title"] ?></div>
+                        <div class="wstext_news light_text"><?php echo $news["content"] ?></div>
+                        <div class="date"><?php echo $news["date"] ?></div>
+                    </div>
+                </a>
+            <?php } ?>
         </div>
     </div>
 
@@ -67,19 +67,19 @@
         <div class="zagol light_text">Разновидность продукции</div>
         <div class="swiper1 mySwiper1" data-aos="zoom-in">
             <div class="swiper-wrapper">
-                <div class="swiper-slide swiper6"><img class="pic_slid" src="images//swiper/romb1.png" alt="">
+                <div class="swiper-slide swiper6"><img class="pic_slid" src="images//swiper/romb1.png" alt="SwiperImage">
                     <div class="text_RPord light_text">Гайки</div>
                 </div>
-                <div class="swiper-slide swiper6"><img class="pic_slid" src="images//swiper/romb2.png" alt="">
+                <div class="swiper-slide swiper6"><img class="pic_slid" src="images//swiper/romb2.png" alt="SwiperImage">
                     <div class="text_RPord light_text">Болты</div>
                 </div>
-                <div class="swiper-slide swiper6"><img class="pic_slid" src="images//swiper/romb3.png" alt="">
+                <div class="swiper-slide swiper6"><img class="pic_slid" src="images//swiper/romb3.png" alt="SwiperImage">
                     <div class="text_RPord light_text">Шпильки</div>
                 </div>
-                <div class="swiper-slide swiper6"><img class="pic_slid" src="images//swiper/romb1.png" alt="">
+                <div class="swiper-slide swiper6"><img class="pic_slid" src="images//swiper/romb1.png" alt="SwiperImage">
                     <div class="text_RPord light_text">Пружины</div>
                 </div>
-                <div class="swiper-slide swiper6"><img class="pic_slid" src="images//swiper/romb2.png" alt="">
+                <div class="swiper-slide swiper6"><img class="pic_slid" src="images//swiper/romb2.png" alt="SwiperImage">
                     <div class="text_RPord light_text">Сверла</div>
                 </div>
             </div>
@@ -89,39 +89,39 @@
     </div>
 
     <div class="container">
-            <div class="zagol zagol_isk light_text">Назначение вида продукции</div>
+        <div class="zagol zagol_isk light_text">Назначение вида продукции</div>
 
         <div class="main_container_prod" data-aos="zoom-in">
             <div class="container_prod container_prod_dop">
                 <div class="block_prod">
-                    <img src="images/icon/car.png" alt="">
+                    <img src="images/icon/car.png" alt="NaznachenieVidaProd">
                     <div class="text_prod light_text">Автомобильный крепеж</div>
                 </div>
 
                 <div class="block_prod">
-                    <img src="images/icon/factory.png" alt="">
+                    <img src="images/icon/factory.png" alt="NaznachenieVidaProd">
                     <div class="text_prod light_text">Машиностроительный крепеж</div>
                 </div>
 
                 <div class="block_prod">
-                    <img src="images/icon/road.png" alt="">
+                    <img src="images/icon/road.png" alt="NaznachenieVidaProd">
                     <div class="text_prod light_text">Дорожный крепеж</div>
                 </div>
             </div>
             <div class="container_prod">
 
                 <div class="block_prod">
-                    <img src="images/icon/screw.png" alt="">
+                    <img src="images/icon/screw.png" alt="NaznachenieVidaProd">
                     <div class="text_prod light_text">DIN-Крепеж</div>
                 </div>
 
                 <div class="block_prod">
-                    <img src="images/icon/hand-up.png" alt="">
+                    <img src="images/icon/hand-up.png" alt="NaznachenieVidaProd">
                     <div class="text_prod light_text">Ресурсный крепеж</div>
                 </div>
 
                 <div class="block_prod">
-                    <img src="images/icon/plane.png" alt="">
+                    <img src="images/icon/plane.png" alt="NaznachenieVidaProd">
                     <div class="text_prod light_text">Авиационный крепеж</div>
                 </div>
             </div>
@@ -131,28 +131,28 @@
     <div class="zagol light_text">Партнеры</div>
     <div class="swiper2 mySwiper1 light_swiper" data-aos="zoom-in">
         <div class="swiper-wrapper">
-            <div class="swiper-slide partner_logo"><img class="pic_part" src="images/S-Logo/lada.png" alt="">
+            <div class="swiper-slide partner_logo"><img class="pic_part" src="images/S-Logo/lada.png" alt="SwiperImage">
                 <div class="text_RPord"></div>
             </div>
-            <div class="swiper-slide partner_logo"><img class="pic_part" src="images/S-Logo/ladaIj.png" alt="">
+            <div class="swiper-slide partner_logo"><img class="pic_part" src="images/S-Logo/ladaIj.png" alt="SwiperImage">
                 <div class="text_RPord"></div>
             </div>
-            <div class="swiper-slide partner_logo"><img class="pic_part" src="images/S-Logo/uaz.png" alt="">
+            <div class="swiper-slide partner_logo"><img class="pic_part" src="images/S-Logo/uaz.png" alt="SwiperImage">
                 <div class="text_RPord"></div>
             </div>
-            <div class="swiper-slide partner_logo"><img class="pic_part" src="images/S-Logo/kamaz.png" alt="">
+            <div class="swiper-slide partner_logo"><img class="pic_part" src="images/S-Logo/kamaz.png" alt="SwiperImage">
                 <div class="text_RPord"></div>
             </div>
-            <div class="swiper-slide partner_logo"><img class="pic_part" src="images/S-Logo/autoliv.png" alt="">
+            <div class="swiper-slide partner_logo"><img class="pic_part" src="images/S-Logo/autoliv.png" alt="SwiperImage">
                 <div class="text_RPord"></div>
             </div>
-            <div class="swiper-slide partner_logo"><img class="pic_part" src="images/S-Logo/KTRV_1.png" alt="">
+            <div class="swiper-slide partner_logo"><img class="pic_part" src="images/S-Logo/KTRV_1.png" alt="SwiperImage">
                 <div class="text_RPord"></div>
             </div>
-            <div class="swiper-slide partner_logo"><img class="pic_part" src="images/S-Logo/gaz.png" alt="">
+            <div class="swiper-slide partner_logo"><img class="pic_part" src="images/S-Logo/gaz.png" alt="SwiperImage">
                 <div class="text_RPord"></div>
             </div>
-            <div class="swiper-slide partner_logo"><img class="pic_part" src="images/S-Logo/vert.png" alt="">
+            <div class="swiper-slide partner_logo"><img class="pic_part" src="images/S-Logo/vert.png" alt="SwiperImage">
                 <div class="text_RPord"></div>
             </div>
         </div>
@@ -161,7 +161,7 @@
     </div>
 
 
-   <?php include "include/footer.php" ?>
+    <?php include "include/footer.php" ?>
 
     <!-- <div class="map">
 <iframe frameborder=0 style='width:90%;height:500px' src='//www.zeemaps.com/pub?group=4367515'> </iframe>

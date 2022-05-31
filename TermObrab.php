@@ -1,4 +1,4 @@
-<?php include 'connect/connect.php';?>
+<?php include 'connect/connect.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,8 +27,8 @@
     <link rel="stylesheet" href="css/map.css">
     <link rel="stylesheet" href="adaptation/AMakeTools.css">
     <style>
-        
-        </style>
+
+    </style>
 </head>
 
 <body>
@@ -37,23 +37,23 @@
 
     <div class="container">
 
-    <div class="bread_point light_text">
-    <a href="#"  onclick="javascript:history.back(); return false;">Услуги-></a>
-        <a href="TermObrab.php">Термическая обработка</a>
-    </div>
-    
+        <div class="bread_point light_text">
+            <a href="#" onclick="javascript:history.back(); return false;">Услуги-></a>
+            <a href="TermObrab.php">Термическая обработка</a>
+        </div>
+
         <div class="zagol light_text">ТЕРМИЧЕСКАЯ ОБРАБОТКА</div>
         <div class="zagol zagol_mini light_text"><a class="SS light_text" href="PDF/term1.pdf">Информация по видам термообработки изделий в АО «БелЗАН»</a></div>
-        
-            </div>
-            
-            <?php include "include/footer.php" ?>
-            
-            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-            <script src="js/script.js"></script>
-            <script src="DarkTheme/DT.js"></script>
-            <script src="js/darkThems.js"></script>
-        </body>
+
+    </div>
+
+    <?php include "include/footer.php" ?>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+    <script src="DarkTheme/DT.js"></script>
+    <script src="js/darkThems.js"></script>
+</body>
 
 </html>

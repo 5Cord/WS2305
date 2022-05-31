@@ -20,7 +20,7 @@
     
     @media screen and (max-width: 1153px) {
         .nav_right {
-            display: none!important;
+            display: none !important;
         }
     }
     
@@ -33,7 +33,7 @@
     
     @media screen and (max-width: 992px) {
         .nav_right {
-            display: none!important;
+            display: none !important;
         }
     }
     

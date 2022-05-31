@@ -102,11 +102,11 @@
 
         <?php include 'Form.php'; ?>
 
-    <div class="zagol h1 light_text">Место нахождение АО "БелЗАН"</div>
+        <div class="zagol h1 light_text">Место нахождение АО "БелЗАН"</div>
     </div>
     </div>
 
-    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A81b67162c74b15cecb07db91f6dc8775aa9b7a961b1a1cc21db379a54c4d55b5&amp;source=constructor" width="100%" height="591"  frameborder="0"></iframe>
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A81b67162c74b15cecb07db91f6dc8775aa9b7a961b1a1cc21db379a54c4d55b5&amp;source=constructor" width="100%" height="591" frameborder="0"></iframe>
 
     <?php include "include/footer.php" ?>
 
@@ -119,10 +119,11 @@
     <script src="js/darkThems.js"></script>
     <script src="js/script.js"></script>
     <script src="js/test.js"></script>
-    <script>          
-    let cords = ["scrollX","scrollY"];
-    window.addEventListener("unload", e => cords.forEach(cord => localStorage[cord] = window[cord]));
-    window.scroll(...cords.map(cord => localStorage[cord]));</script>
+    <script>
+        let cords = ["scrollX", "scrollY"];
+        window.addEventListener("unload", e => cords.forEach(cord => localStorage[cord] = window[cord]));
+        window.scroll(...cords.map(cord => localStorage[cord]));
+    </script>
 </body>
 
 </html>

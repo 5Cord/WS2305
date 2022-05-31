@@ -25,20 +25,20 @@
     <div class="bg_cont light_HF">
         <div class="container">
             <div class="blocks_parthner">
-                <div class="parth_pic light_HF light_text"><img class="img light_text" src="images/S-Logo/gaz.png" alt=""> «Группа ГАЗ»</div>
-                <div class="parth_pic light_HF light_text"><img class="img" src="images/S-Logo/autoliv.png" alt="">Шведская компания</div>
-                <div class="parth_pic light_HF light_text"><img class="img" src="images/S-Logo/lada.png" alt="">ПАО «АВТОВАЗ»</div>
-                <div class="parth_pic light_HF light_text"><img class="img" src="images/S-Logo/uaz.png" alt="">Группа «УАЗ»</div>
-                <div class="parth_pic light_HF light_text"><img class="img" src="images/S-Logo/ladaIj.png" alt="">ООО "ЛАДА Ижевский
+                <div class="parth_pic light_HF light_text"><img class="img light_text" src="images/S-Logo/gaz.png" alt="LogoPart"> «Группа ГАЗ»</div>
+                <div class="parth_pic light_HF light_text"><img class="img" src="images/S-Logo/autoliv.png" alt="LogoPart">Шведская компания</div>
+                <div class="parth_pic light_HF light_text"><img class="img" src="images/S-Logo/lada.png" alt="LogoPart">ПАО «АВТОВАЗ»</div>
+                <div class="parth_pic light_HF light_text"><img class="img" src="images/S-Logo/uaz.png" alt="LogoPart">Группа «УАЗ»</div>
+                <div class="parth_pic light_HF light_text"><img class="img" src="images/S-Logo/ladaIj.png" alt="LogoPart">ООО "ЛАДА Ижевский
                     автомобильный завод"
                 </div>
-                <div class="parth_pic light_HF light_text "><img class="img" src="images/S-Logo/PVO.png" alt="">АО "Концерн
+                <div class="parth_pic light_HF light_text "><img class="img" src="images/S-Logo/PVO.png" alt="LogoPart">АО "Концерн
                     воздушно-космической
                     обороны "Алмаз-Антей"
                 </div>
-                <div class="parth_pic light_HF light_text"><img class="img" src="images/S-Logo/Odk.png" alt="">АО «Объединённая
+                <div class="parth_pic light_HF light_text"><img class="img" src="images/S-Logo/Odk.png" alt="LogoPart">АО «Объединённая
                     двигателестроительная корпорация»</div>
-                <div class="parth_pic light_HF light_text"><img class="img" src="images/S-Logo/vert.png" alt=""> АО «Вертолёты России»</div>
+                <div class="parth_pic light_HF light_text"><img class="img" src="images/S-Logo/vert.png" alt="LogoPart"> АО «Вертолёты России»</div>
             </div>
         </div>
     </div>

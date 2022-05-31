@@ -28,28 +28,28 @@
 
     <?php include 'include/header-swiper.php'; ?>
 
-    <div class="zagol light_text" >Продукция</div>
+    <div class="zagol light_text">Продукция</div>
     <div class="swiper2 mySwiper2 light_block" data-aos="zoom-in" data-aoss>
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="block_swiper">
                     <div class="text_swiper_big light_text">Инструментальное производство, более 60 000 позиций инструмента и
                         оснастки</div>
-                    <div class="pic_swiper pic_swiper1"><img src="images/swiper/romb1.png" alt=""></div>
+                    <div class="pic_swiper pic_swiper1"><img src="images/swiper/romb1.png" alt="SwiperImage"></div>
                 </div>
             </div>
 
             <div class="swiper-slide">
                 <div class="block_swiper">
                     <div class="text_swiper_big light_text">22 ПОДКАТЕГОРИИ АВТОМОБИЛЬНОГО КРЕПЕЖА ДЛЯ МОДЕЛЕЙ ВАЗ И КАМАЗ</div>
-                    <div class="pic_swiper pic_swiper1"><img src="images/swiper/romb2.png" alt=""></div>
+                    <div class="pic_swiper pic_swiper1"><img src="images/swiper/romb2.png" alt="SwiperImage"></div>
                 </div>
             </div>
 
             <div class="swiper-slide">
                 <div class="block_swiper">
                     <div class="text_swiper_big light_text">НАЧАЛО ПРОИЗВОДСТВА КРЕПЕЖА ИЗ НЕРЖАВЕЮЩЕЙ СТАЛИ</div>
-                    <div class="pic_swiper pic_swiper1"><img src="images/swiper/romb3.png" alt=""></div>
+                    <div class="pic_swiper pic_swiper1"><img src="images/swiper/romb3.png" alt="SwiperImage"></div>
                 </div>
             </div>
         </div>
@@ -60,19 +60,19 @@
         <div class="zagol light_text">Разновидность продукции</div>
         <div class="swiper1 mySwiper1" data-aos="zoom-in">
             <div class="swiper-wrapper">
-                <div class="swiper-slide swiper-mini"><img class="pic_slid" src="images//swiper/romb1.png" alt="">
+                <div class="swiper-slide swiper-mini"><img class="pic_slid" src="images//swiper/romb1.png" alt="SwiperImage">
                     <div class="text_RPord light_text">Гайки</div>
                 </div>
-                <div class="swiper-slide swiper-mini"><img class="pic_slid" src="images//swiper/romb2.png" alt="">
+                <div class="swiper-slide swiper-mini"><img class="pic_slid" src="images//swiper/romb2.png" alt="SwiperImage">
                     <div class="text_RPord light_text">Болты</div>
                 </div>
-                <div class="swiper-slide swiper-mini"><img class="pic_slid" src="images//swiper/romb3.png" alt="">
+                <div class="swiper-slide swiper-mini"><img class="pic_slid" src="images//swiper/romb3.png" alt="SwiperImage">
                     <div class="text_RPord light_text">Шпильки</div>
                 </div>
-                <div class="swiper-slide swiper-mini"><img class="pic_slid" src="images//swiper/romb1.png" alt="">
+                <div class="swiper-slide swiper-mini"><img class="pic_slid" src="images//swiper/romb1.png" alt="SwiperImage">
                     <div class="text_RPord light_text">Пружины</div>
                 </div>
-                <div class="swiper-slide swiper-mini"><img class="pic_slid" src="images//swiper/romb2.png" alt="">
+                <div class="swiper-slide swiper-mini"><img class="pic_slid" src="images//swiper/romb2.png" alt="SwiperImage">
                     <div class="text_RPord light_text">Сверла</div>
                 </div>
             </div>
@@ -80,13 +80,14 @@
           <div class="swiper-button-prev"></div> -->
         </div>
         <div class="ssilka light_text">Полный каталог продукции на сайте:
-        <a href="https://belsak.ru/" class="light_text">https://belsak.ru/</a></div>
+            <a href="https://belsak.ru/" class="light_text">https://belsak.ru/</a>
+        </div>
     </div>
 
 
 
     <div class="container">
-            <div class="zagol zagol_isk light_text">Назначение вида продукции</div>
+        <div class="zagol zagol_isk light_text">Назначение вида продукции</div>
 
         <div class="main_container_prod" data-aos="zoom-in">
             <div class="container_prod container_prod_dop">

@@ -18,7 +18,7 @@
       //удаляем строку из таблицы
       $sql = mysqli_query($connect, "DELETE FROM `news` WHERE `ID` = {$_GET['del_id']}");
       if ($sql) {
-        echo "<p class='utext'>Товар удален {$result['ID']}</p>";
+        echo "<p class='utext'>Новость удален {$result['ID']}</p>";
         header("refresh: 5; DeleteNews.php");
       } else {
         echo '<p>Произошла ошибка: ' . mysqli_error($link) . '</p>';

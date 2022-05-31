@@ -12,7 +12,7 @@ ob_start();
 // Страница регистрации нового пользователя
 
 // Соединямся с БД
-$link=mysqli_connect("192.168.88.24", "5cord", "5cord", "belzan");
+$link=mysqli_connect("192.168.30.119", "5cord", "5cord", "belzan");
 
 if(isset($_POST['submit']))
 {
@@ -66,12 +66,12 @@ if(isset($_POST['submit']))
 
 <div class="Forms">
 <p class="TZagl">Личный кабинет, вы вошли как <?php 
-    $link=mysqli_connect("192.168.88.24", "5cord", "5cord", "belzan");
+    $link=mysqli_connect("192.168.30.119", "5cord", "5cord", "belzan");
     $query=mysqli_query($link, "SELECT * FROM users WHERE id='". intval($_COOKIE['id'])."'Limit 1");
     $userdata=mysqli_fetch_assoc($query);
     print $userdata['login'];?> </p>
 <div class="ContADMP"><a class="ADMP" href="../Admin/AdminPanel.php">
-<? $link=mysqli_connect("192.168.88.24", "5cord", "5cord", "belzan");
+<? $link=mysqli_connect("192.168.30.119", "5cord", "5cord", "belzan");
     $query=mysqli_query($link, "SELECT * FROM users WHERE id='". intval($_COOKIE['id'])."'Limit 1");
     $userdata=mysqli_fetch_assoc($query);
     if(($userdata['login'] == 'Dmitry') and ($userdata['ind'] == 1)){

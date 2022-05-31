@@ -2,15 +2,6 @@ body {
     margin-top: 2em;
 }
 
-.a {
-    padding-left: 1em;
-    text-decoration: none;
-    color: #000000;
-    font-size: 2em;
-    font-weight: 200;
-    line-height: 2em;
-}
-
 .block {
     margin-right: 1em;
     margin-left: 1em;
@@ -27,13 +18,4 @@ body {
     /* значение auto не поддерживается Chrome */
 }
 
-@media screen and (max-width: 1000px) {
-    .a {
-        padding-left: 1em;
-        text-decoration: none;
-        color: #000000;
-        font-size: 1em;
-        font-weight: 200;
-        line-height: 2em;
-    }
-}
+@media screen and (max-width: 1000px) {}

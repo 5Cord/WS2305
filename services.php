@@ -29,15 +29,15 @@
     <div class="container_body container_servisec">
         <div class="zagol light_text">Услуги</div>
         <div class="servisec">
-            <a href="MakeTools.php"  class="block_serv">
+            <a href="MakeTools.php" class="block_serv">
                 <div class="block_img_serv">
-                    <img src="images/swiper/izgInstr.png" alt="">
+                    <img src="images/swiper/izgInstr.png" alt="ImageServices">
                 </div>
                 <div class="text_servisec TS_big light_text">Изготовление инструмента</div>
             </a>
-            <a href="arendaProiz.php"  class="block_serv">
+            <a href="arendaProiz.php" class="block_serv">
                 <div class="block_img_serv">
-                    <img src="images/swiper/arenda.png" alt="">
+                    <img src="images/swiper/arenda.png" alt="ImageServices">
                 </div>
                 <div class="text_servisec TS_big light_text">Аренда производсвенных помещений и оборудования</div>
             </a>
@@ -46,30 +46,30 @@
         <div class="servisec">
             <a href="Prez.html" target="_bank" class="block_serv">
                 <div class="block_img_serv">
-                    <img src="images/swiper/zashita.png" alt="">
+                    <img src="images/swiper/zashita.png" alt="ImageServices">
                 </div>
                 <div class="text_servisec TS_big light_text">Нанесение защитных покрытий</div>
             </a>
 
-            <a href="Metrology.php"  class="block_serv">
+            <a href="Metrology.php" class="block_serv">
                 <div class="block_img_serv">
-                    <img src="images/swiper/metro.png" alt="">
+                    <img src="images/swiper/metro.png" alt="ImageServices">
                 </div>
                 <div class="text_servisec TS_big light_text">Метрология</div>
             </a>
         </div>
 
         <div class="servisec">
-            <a href="TermObrab.php"  class="block_serv">
+            <a href="TermObrab.php" class="block_serv">
                 <div class="block_img_serv">
-                    <img src="images/swiper/termo.png" alt="">
+                    <img src="images/swiper/termo.png" alt="ImageServices">
                 </div>
                 <div class="text_servisec TS_big light_text">Термическая обработка</div>
             </a>
-            <a href="Azot.php"   class="block_serv">
-            <div class="block_img_serv">
-                <img src="images/swiper/azot.png" alt="">
-            </div>
+            <a href="Azot.php" class="block_serv">
+                <div class="block_img_serv">
+                    <img src="images/swiper/azot.png" alt="ImageServices">
+                </div>
                 <div class="text_servisec TS_big light_text">Азотно-кислородная станция</div>
             </a>
         </div>

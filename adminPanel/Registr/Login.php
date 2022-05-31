@@ -21,7 +21,7 @@ function generateCode($length=6) {
 }
 
 // Соединямся с БД
-$link=mysqli_connect("192.168.88.24", "5cord", "5cord", "belzan");
+$link=mysqli_connect("192.168.30.119", "5cord", "5cord", "belzan");
 
 if(isset($_POST['submit']))
 {

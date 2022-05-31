@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="adaptation/AAbout.css">
     <link rel="stylesheet" href="include/HL.css">
 </head>
- 
+
 <body>
     <?php include 'include/header.php'; ?>
 
@@ -31,47 +31,47 @@
             <div class="left_menu light_block">
                 <div class="block_text_lm">
 
-                <div class="point_left_menu light_text">
-                    <a target="_blank" href="map.php">География присутсвия</a>
-                </div>
+                    <div class="point_left_menu light_text">
+                        <a target="_blank" href="map.php">География присутсвия</a>
+                    </div>
 
-                <div class="point_left_menu light_text">
-                    <a target="_blank" href="History.php">История</a>
-                </div>
-                <div class="point_left_menu light_text">
-                    <a target="_blank" href="License.php">Лицензии</a>
-                </div>
-                <div class="point_left_menu light_text">
-                    <a target="_blank" href="Docum.php">Документы</a>
-                </div>
-                <div class="point_left_menu light_text">
-                    <a target="_blank" href="Obychenie.php">Обучение</a>
-                </div>
-            </div>
-            </div>
-                <div class="block_about_text">
-                    <div class="up_block">
-                        <?php include 'include/headerLeft.php'; ?>  
-                        <div class="zagol light_text">АО “БЕЛЗАН”</div> 
+                    <div class="point_left_menu light_text">
+                        <a target="_blank" href="History.php">История</a>
                     </div>
-                    <div class="text_about light_text">
-                        <p> Акционерное Общество "Белебеевский завод "Автонормаль" (АО "БелЗАН") - современное
-                            машиностроительное предприятие, специализирующееся на производстве крепежных изделий и пружин для
-                            автомобильной промышленности, металлорежущего и холодновысадочного инструмента.</p>
-                        <p>4 февраля 1967 года Постановлением Совета Министров СССР было принято решение о строительстве новых
-                            предприятий по производству комплектующих изделий для Волжского Автозавода, в том числе и
-                            Белебеевского завода нормалей и метизов. В октябре того же года было начато строительство, и 18
-                            января 1971 года завод был введен в строй действующих.</p>
-                        <p> В 1973 году началось освоение деталей для большегрузных автомобилей "КамАЗ".
-                            Сегодня среди потребителей продукции АО "БелЗАН" практически все отечественные автопроизводители:
-                            "АвтоВАЗ", "КамАЗ", "УАЗ", "ГАЗ", "GM-АвтоВАЗ", АМО "ЗИЛ", "Иж-Авто" и другие, их предприятия -
-                            смежники, а также предприятия стран СНГ.</p>
-                        <div class="block_img">
-                            <img class="pic_about old" src="images/Logo old.png" alt="">
-                            <img class="pic_about new" blin src="images/Logo blue.png" alt="">
-                        </div>
+                    <div class="point_left_menu light_text">
+                        <a target="_blank" href="License.php">Лицензии</a>
+                    </div>
+                    <div class="point_left_menu light_text">
+                        <a target="_blank" href="Docum.php">Документы</a>
+                    </div>
+                    <div class="point_left_menu light_text">
+                        <a target="_blank" href="Obychenie.php">Обучение</a>
                     </div>
                 </div>
+            </div>
+            <div class="block_about_text">
+                <div class="up_block">
+                    <?php include 'include/headerLeft.php'; ?>
+                    <div class="zagol light_text">АО “БЕЛЗАН”</div>
+                </div>
+                <div class="text_about light_text">
+                    <p> Акционерное Общество "Белебеевский завод "Автонормаль" (АО "БелЗАН") - современное
+                        машиностроительное предприятие, специализирующееся на производстве крепежных изделий и пружин для
+                        автомобильной промышленности, металлорежущего и холодновысадочного инструмента.</p>
+                    <p>4 февраля 1967 года Постановлением Совета Министров СССР было принято решение о строительстве новых
+                        предприятий по производству комплектующих изделий для Волжского Автозавода, в том числе и
+                        Белебеевского завода нормалей и метизов. В октябре того же года было начато строительство, и 18
+                        января 1971 года завод был введен в строй действующих.</p>
+                    <p> В 1973 году началось освоение деталей для большегрузных автомобилей "КамАЗ".
+                        Сегодня среди потребителей продукции АО "БелЗАН" практически все отечественные автопроизводители:
+                        "АвтоВАЗ", "КамАЗ", "УАЗ", "ГАЗ", "GM-АвтоВАЗ", АМО "ЗИЛ", "Иж-Авто" и другие, их предприятия -
+                        смежники, а также предприятия стран СНГ.</p>
+                    <div class="block_img">
+                        <img class="pic_about old" src="images/Logo old.png" alt="oldLogo">
+                        <img class="pic_about new" blin src="images/Logo blue.png" alt="newLogo">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

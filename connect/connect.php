@@ -1,7 +1,6 @@
 <?php
 // include "lib/RedBeanPHP5_7_2.tgz";
-
-$db_host = "192.168.88.24";
+$db_host = "192.168.30.119";
 $db_user = "5cord";
 $db_pass = "5cord";
 $db = "belzan";
