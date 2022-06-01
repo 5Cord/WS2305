@@ -8,6 +8,7 @@
 
 <link rel="stylesheet" type="text/css" href="StyeleReg.css">
 <?
+require_once("./connect/connect.php");
 ob_start();
 // Страница регистрации нового пользователя
 

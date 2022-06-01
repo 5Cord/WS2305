@@ -7,6 +7,7 @@
 <body>
 <link rel="stylesheet" type="text/css" href="StyeleReg.css">
 <?
+include "../../connect/connect.php";
 // Страница авторизации
 
 // Функция для генерации случайной строки
@@ -21,12 +22,11 @@ function generateCode($length=6) {
 }
 
 // Соединямся с БД
-$link=mysqli_connect("192.168.30.119", "5cord", "5cord", "belzan");
 
 if(isset($_POST['submit']))
 {
     // Вытаскиваем из БД запись, у которой логин равняеться введенному
-    $query = mysqli_query($link,"SELECT id, user_password FROM users WHERE user_login='".mysqli_real_escape_string($link,$_POST['user_login'])."' LIMIT 1");
+    $query = mysqli_query($connect,"SELECT id, user_password FROM users WHERE user_login='".mysqli_real_escape_string($connect,$_POST['user_login'])."' LIMIT 1");
     $data = mysqli_fetch_assoc($query);
 
     // Сравниваем пароли
@@ -43,7 +43,7 @@ if(isset($_POST['submit']))
         }
 
         // Записываем в БД новый хеш авторизации и IP
-        mysqli_query($link, "UPDATE users SET user_hash='".$hash."' ".$insip." WHERE id='".$data['id']."'");
+        mysqli_query($connect, "UPDATE users SET user_hash='".$hash."' ".$insip." WHERE id='".$data['id']."'");
         echo"<script> alert('Успешно авторизированы!')</script>";
 
         // Ставим куки

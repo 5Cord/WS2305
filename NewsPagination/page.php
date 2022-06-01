@@ -1,13 +1,13 @@
 <?php
-require_once("db.php");
-if($connection == false){
+include "../connect/connect.php";
+if($connect == false){
 	echo "Error!";
 	echo mysqli_connect_errno();
 	exit();
 }
 $page = $_GET['id'];
 echo $page;
-$query = mysqli_query($connection, "SELECT * FROM $dbarticles WHERE id='$page' ");
+$query = mysqli_query($connect, "SELECT * FROM $dbarticles WHERE id='$page' ");
 ?>
 <!doctype html>
 <html>

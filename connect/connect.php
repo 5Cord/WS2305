@@ -3,6 +3,7 @@
 $db_host = "192.168.30.119";
 $db_user = "5cord";
 $db_pass = "5cord";
+$dbarticles = "news";
 $db = "belzan";
 $connect = mysqli_connect($db_host, $db_user, $db_pass, $db);
 

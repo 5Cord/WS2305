@@ -1,6 +1,5 @@
-<?php include './connect/connect.php'; ?>
 <?php
-require_once("db.php");
+require_once("./connect/connect.php");
 if($connect == false){
 	echo "Error!";
 	echo mysqli_connect_errno();
@@ -13,11 +12,11 @@ if (isset($_GET['page'])){
 }
 $limit = 6;
 $number = ($page * $limit) - $limit;
-$res_count = mysqli_query($connect, "SELECT COUNT(*) FROM `$db` ");
+$res_count = mysqli_query($connect, "SELECT COUNT(*) FROM `$dbarticles` ");
 $row = mysqli_fetch_row($res_count);
 $total = $row[0];
 $str_pag = ceil($total / $limit);
-$query = mysqli_query($connect, "SELECT * FROM $db ORDER BY id DESC LIMIT $number, $limit ");
+$query = mysqli_query($connect, "SELECT * FROM $dbarticles ORDER BY id DESC LIMIT $number, $limit ");
 ?>
 <!doctype html>
 <html>
