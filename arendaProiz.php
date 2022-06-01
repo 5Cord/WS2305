@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="css/DarkThems.css">
     <link rel="stylesheet" href="css/map.css">
     <link rel="stylesheet" href="adaptation/AMakeTools.css">
-    <style>
+    <style> 
         .imgg_instrum {
             margin: 1em auto;
         }
