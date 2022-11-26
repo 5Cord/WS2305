@@ -34,11 +34,11 @@
     <?php include 'include/header.php'; ?>
     <?php include 'include/header-swiper.php'; ?>
 
+    <div class="bread_point light_text">
+        <a href="#" onclick="javascript:history.back(); return false;">Услуги-></a>
+        <a href="Metrology.php">Метрология</a>
+    </div>
     <div class="container">
-        <div class="bread_point light_text">
-            <a href="#" onclick="javascript:history.back(); return false;">Услуги-></a>
-            <a href="Metrology.php">Метрология</a>
-        </div>
 
         <div class="zagol light_text">МЕТРОЛОГИЯ</div>
         <div class="zagol zagol_mini light_text">Акционерное Общество «Белебеевский завод «Автонормаль» выполняет следующие виды работ:</div>
@@ -70,7 +70,7 @@
             <li class="li light_text"><a class="light_text" href="https://www.belzan.ru/bitrix/images/obychenie/Письмо%20ФСА%20(Росаккредитация)%20на%20право%20поверки%20с%2001.06.18г%20(1)._pdf">Письмо ФСА на право поверки</a></li>
             <li class="li light_text"><a class="light_text" href="https://www.belzan.ru/bitrix/images/obychenie/Приказ%20РОСАККРЕДИТАЦИИ.pdf">Приказ Росаккредитации</a></li>
             <li class="li light_text"><a class="light_text" href="https://www.belzan.ru/bitrix/images/obychenie/Область%20аккредитации%20по%20калибровке%20(1).pdf">Области аккредитации по калибровке средств измерений</a></li>
-            <li class="li light_text"><a class="light_text" href="https://www.belzan.ru/bitrix/images/obychenie/Область%20аккредитации%20по%20поверке%20с%2001.06.18г.-%20Утвержденная%20(1).pdf">Области аккредитации на право поверки средств измерений.</a></li>
+            <li class="li last light_text"><a class="light_text" href="https://www.belzan.ru/bitrix/images/obychenie/Область%20аккредитации%20по%20поверке%20с%2001.06.18г.-%20Утвержденная%20(1).pdf">Области аккредитации на право поверки средств измерений.</a></li>
         </ul>
 
     </div>

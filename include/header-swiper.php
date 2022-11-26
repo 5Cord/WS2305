@@ -17,11 +17,12 @@
       </div>
       
       </div>
-        <div class="swiper-slide"><img src="images/swiper/1uaz.png" alt="">
+      
+        <!-- <div class="swiper-slide"><img src="images/swiper/1uaz.png" alt="">
         <div class="container_text_swiper">
         <div class="text_swiper">В каждом вертолете <br>
         около 8000 заклепок АО “БЕЛЗАН”</div>
-      </div>
+      </div> -->
       
       </div>
 

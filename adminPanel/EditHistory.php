@@ -21,13 +21,13 @@
         $product = mysqli_fetch_array($sql); 
       }
 //Если переменная Name передана
-if (isset($_POST["content"])) {
+if (isset($_POST["Connect"]) ) {
   //Если это запрос на обновление, то обновляем
   if (isset($_GET['red_id'])) {
-      $sql = mysqli_query($connect, "UPDATE `about` SET `content` = '{$_POST['content']}' WHERE `ID`={$_GET['red_id']}");
+      $sql = mysqli_query($connect, "UPDATE `about` SET `content` = '{$_POST['Connect']}' WHERE `ID`={$_GET['red_id']}");
   } else {
       //Иначе вставляем данные, подставляя их в запрос
-      $sql = mysqli_query($connect, "INSERT INTO `about` (`content`) VALUES ('{$_POST['content']}')");
+      $sql = mysqli_query($connect, "INSERT INTO `about` (`content`) VALUES ('{$_POST['Connect']}')");
   }
 
 
@@ -36,19 +36,21 @@ if (isset($_POST["content"])) {
     echo '<p class="utext">Успешно измененно!</p>';
     header("refresh: 5; EditHistory.php");
   } else {
-    echo '<p>Произошла ошибка: ' . mysqli_error($connect) . '</p>';
+    echo '<p class="utext">Произошла ошибка: ' . mysqli_error($connect) . '</p>';
   }
+}else{
+    echo '<p class="utext">Проверте заполненность всех полей<br></p>';
 }
  ?>
 
     <div class="container">
-        <h1 class="h1">Изменение абзац истории</h1>
+        <h1 class="h1 black">Изменение абзац истории</h1>
         <a class="none" href="History.html">Назад</a>
         <form action="" method="post">
             <table>
                 <tr>
                     <td>Текст:</td>
-                    <td><textarea class="texta" name="content"><?= isset($_GET['red_id']) ? $product['content'] : ''; ?></textarea></td>
+                    <td><textarea class="texta" name="Connect"><?= isset($_GET['red_id']) ? $product['content'] : ''; ?></textarea></td>
                 </tr>
                 <tr>
                     <td colspan="2"><input type="submit" value="Изменить"></td>

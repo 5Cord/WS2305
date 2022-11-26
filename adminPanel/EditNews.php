@@ -13,35 +13,37 @@
 
 <body>
 
-    <?php include '../connect/connect.php';?>
+    <?php include '../connect/connect.php'; ?>
     <?php
     $fileName = htmlspecialchars($_POST['picture']);
+
     $fileText = $_POST['TextFile'];
+
     //Если передана переменная red_id, то надо обновлять данные. Для начала достанем их из БД
     if (isset($_GET['red_id'])) {
         $sql = mysqli_query($connect, "SELECT `ID`, `title`, `content`, `date`, `picture` FROM `news` WHERE `ID`={$_GET['red_id']}");
         $product = mysqli_fetch_array($sql);
-      }
-if (isset($_POST["submit"])) {
-    if (isset($_GET['red_id'])) {
-      $sql = mysqli_query($connect, "UPDATE `news` SET `title` = '{$_POST['title']}', `content` = '{$_POST['content']}',`date` = '{$_POST['date']}',`picture` = '{$_POST['pictureText']}' WHERE `ID`={$_GET['red_id']}");
-  } else {
-      $sql = mysqli_query($connect, "INSERT INTO `news` (`title`, `content`, `date`, `picture`) VALUES ('{$_POST['title']}','{$_POST['content']}','{$_POST['date']}','{$_POST['pictureText']}')");
-  }
+    }
+    if (isset($_POST["submit"])) {
+        if (isset($_GET['red_id'])) {
+            $sql = mysqli_query($connect, "UPDATE `news` SET `title` = '{$_POST['title']}', `content` = '{$_POST['content']}',`date` = '{$_POST['date']}',`picture` = '{$_POST['pictureText']}' WHERE `ID`={$_GET['red_id']}");
+        } else {
+            $sql = mysqli_query($connect, "INSERT INTO `news` (`title`, `content`, `date`, `picture`) VALUES ('{$_POST['title']}','{$_POST['content']}','{$_POST['date']}','{$_POST['pictureText']}')");
+        }
 
-  if ($sql) {
-    echo '<p class="utext">Успешно измененно!</p>';
-    header("refresh: 5; EditNews.php");
-  } else {
-    echo '<p>Проверте заполненность всех полей<br></p>';
-  }
-}
+        if ($sql) {
+            echo '<p class="utext">Успешно измененно!</p>';
+            header("refresh: 5; EditNews.php");
+        } else {
+            echo '<p>Проверте заполненность всех полей<br></p>';
+        }
+    }
 
 
- ?>
+    ?>
 
     <div class="container">
-        <h1 class="h1">Изменение новостей</h1>
+        <h1 class="h1 black">Изменение новостей</h1>
         <a class="none" href="News.html">Назад</a>
         <form action="" method="post">
             <table class="DSI">
@@ -65,6 +67,7 @@ if (isset($_POST["submit"])) {
                     <td><input type="text" name="pictureText" id="TextFile" class="TextFile" value="<?= isset($_GET['red_id']) ? $product['picture'] : $newPer; ?>"></td>
                 </tr>
                 <tr>
+                    <td colspan="2"><img class="picture_id" src=../images/news/<?php echo $product['picture'] ?>></td>
                     <td colspan="2"><input type="submit" name="submit" value="Изменить"></td>
                 </tr>
             </table>
@@ -80,22 +83,22 @@ if (isset($_POST["submit"])) {
                 <th>Редактирование</th>
             </tr>
             <?php
-      $sql = mysqli_query($connect, 'SELECT `ID`, `title`, `content`, `date`, `picture` FROM `news`');
-      while ($result = mysqli_fetch_array($sql)) {
-        echo '<tr>' .
-             "<td class='content'>{$result['ID']}</td>" .
-             "<td class='content'>{$result['title']}</td>" .
-             "<td class='content'>{$result['content']}</td>" .
-             "<td class='content'>{$result['date']}</td>" .
-             "<td class='content'><img src=../images/news/{$result['picture']}></td>" .
-             "<td><a class='a butt' href='?red_id={$result['ID']}'>Изменить</a></td>" .
-             '</tr>';
-      }
-    ?>
+            $sql = mysqli_query($connect, 'SELECT `ID`, `title`, `content`, `date`, `picture` FROM `news`');
+            while ($result = mysqli_fetch_array($sql)) {
+                echo '<tr>' .
+                    "<td class='content'>{$result['ID']}</td>" .
+                    "<td class='content'>{$result['title']}</td>" .
+                    "<td class='content'>{$result['content']}</td>" .
+                    "<td class='content'>{$result['date']}</td>" .
+                    "<td class='content'><img src=../images/news/{$result['picture']}></td>" .
+                    "<td><a class='a butt' href='?red_id={$result['ID']}'>Изменить</a></td>" .
+                    '</tr>';
+            }
+            ?>
         </table>
     </div>
-<script src="../js/script.js"></script>
-<script src="../js/EDscript.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/EDscript.js"></script>
 </body>
 
 </html>

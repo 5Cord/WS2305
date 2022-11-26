@@ -2,7 +2,6 @@
 
 .container_text_swiper {
     position: absolute;
-    z-index: 4;
     right: 75px;
     top: 120px;
     background-color: rgba(0, 0, 0, 0.2);
@@ -28,12 +27,14 @@
     background: #1D71BD;
     padding: 1em 2em 0 1em;
     color: #FFFFFF;
+    z-index: 1000;
 }
 
 .block_text_lm {
     margin-top: 100%;
     text-align: right;
     padding-left: 1em;
+    z-index: 100;
 }
 
 .block_text_lm a {
@@ -42,6 +43,7 @@
 
 .point_left_menu {
     margin-bottom: 1em;
+    z-index: 1000;
 }
 
 a:hover {

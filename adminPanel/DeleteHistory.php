@@ -27,7 +27,7 @@
   ?>
     <div class="container">
         <h1 class="zagol black">Удаление абзаца истории</h1>
-        <a class="none" href=History.html">Назад</a>
+        <a class="none" href="History.html">Назад</a>
         <table border='1'>
             <tr>
                 <th>ID</th>

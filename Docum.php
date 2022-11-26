@@ -35,11 +35,11 @@
     <?php include 'include/header-swiper.php'; ?>
 
 
+    <div class="bread_point light_text">
+        <a href="#" onclick="javascript:history.back(); return false;">О компании-></a>
+        <a href="Docum.php">Документы</a>
+    </div>
     <div class="container">
-        <div class="bread_point light_text">
-            <a href="#" onclick="javascript:history.back(); return false;">О компании-></a>
-            <a href="Docum.php">Документы</a>
-        </div>
         <div class="zagol light_text">Документы</div>
         <ul>
             <li>
@@ -49,7 +49,7 @@
                 <div class="point_docum"><a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.belzan.ru%2Fupload%2Fdealerscontact%25202.xls&wdOrigin=BROWSELINK" target="_bank" class="point_documS light_text">Диллеры машиностроительного крепежа</a></div>
             </li>
             <li>
-                <div class="point_docum"><a href="https://www.belzan.ru/upload/belzan_internal_rules.pdf" target="_bank" class="point_documS light_text">Пропускной и внутриобъектный режим АО "БелЗАН"</a></div>
+                <div class="point_docum last_post"><a href="https://www.belzan.ru/upload/belzan_internal_rules.pdf" target="_bank" class="point_documS light_text">Пропускной и внутриобъектный режим АО "БелЗАН"</a></div>
             </li>
         </ul>
     </div>

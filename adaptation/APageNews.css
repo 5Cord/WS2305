@@ -6,7 +6,6 @@
         text-transform: uppercase;
         text-overflow: ellipsis;
         overflow: hidden;
-        word-break: break-all;
         padding-right: 0.7em;
     }
     .date_news {
@@ -51,7 +50,6 @@
         text-transform: uppercase;
         text-overflow: ellipsis;
         overflow: hidden;
-        word-break: break-all;
         padding-right: 0.7em;
     }
     .date_news {
@@ -96,7 +94,6 @@
         text-transform: uppercase;
         text-overflow: ellipsis;
         overflow: hidden;
-        word-break: break-all;
         padding-right: 0.7em;
     }
     .date_news {
@@ -141,7 +138,6 @@
         text-transform: uppercase;
         text-overflow: ellipsis;
         overflow: hidden;
-        word-break: break-all;
         padding-right: 0.7em;
     }
     .date_news {

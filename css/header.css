@@ -165,7 +165,7 @@ a {
     display: flex;
     justify-content: space-between;
     top: 585px;
-    z-index: 3;
+    z-index: 1;
     margin: 0 100px;
     /* margin: 0 50px 0 50px; */
     left: 0;
@@ -180,6 +180,7 @@ a {
     color: #fafafa;
     font-size: 22px;
     font-weight: bold;
+    z-index: 1;
 }
 
 .title {
@@ -204,7 +205,6 @@ a {
 
 .container_text_swiper {
     position: absolute;
-    z-index: 4;
     right: 75px;
     top: 120px;
     background-color: rgba(0, 0, 0, 0.2);

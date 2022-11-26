@@ -43,15 +43,6 @@
     transform: scale(1.05);
 }
 
-.bread_point a {
-    color: #1E71BF;
-}
-
-.bread_point {
-    margin-left: 2em;
-    margin-bottom: -2em;
-}
-
 @media screen and (max-width: 1024px) {
     .roww {
         margin-top: 3em;

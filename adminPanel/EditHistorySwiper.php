@@ -36,13 +36,13 @@ if (isset($_POST["submit"]) && $_POST["years"] && $_POST["content"] && $_POST["p
     echo '<p>Проверте заполненность всех полей<br></p>';
   }
 }else{
-    echo '<p>Проверте заполненность всех полей<br></p>';
+    echo '<p class="utext">Проверте заполненность всех полей<br></p>';
 }
 
  ?>
 
 <div class="container">
-        <h1 class="h1">Изменение слайдера истории</h1>
+        <h1 class="h1 black">Изменение слайдера истории</h1>
         <a class="none" href="History.html">Назад</a>
         <form action="" method="post">
             <table>
@@ -61,11 +61,12 @@ if (isset($_POST["submit"]) && $_POST["years"] && $_POST["content"] && $_POST["p
                 <tr>
                     <td>Картинка:</td>
                     <td><input type="file" accept=".jpg,.png,.jpeg" name="pictures" class="file" id="file"></td>
-                    <td><input type="text" name="pictureText" id="TextFile" class="TextFile" value="<?= isset($_GET['red_id']) ? $product['pictures'] : $newPer; ?>"></td>
+                    <!-- <td><input type="text" name="pictureText" id="TextFile" class="TextFile" value="<?= isset($_GET['red_id']) ? $product['pictures'] : $newPer; ?>"></td> -->
                 </tr>
 
                 <tr>
-                    <td colspan="2"><input type="submit" name="submit" value="Изменить"></td>
+                    <td colspan="2"><img class="picture_id" src=../images/history/<?php echo $product['pictures']?>></td>
+                    <td colspan="2"><div class="edit"><input type="submit" name="submit" value="Изменить"></div></td>
                 </tr>
             </table>
         </form>

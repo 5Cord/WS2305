@@ -32,7 +32,7 @@
             <a href="PDF/Akcio/sovetDer.pdf" target="_blank" class="text_SH light_block light_text">Совет директоров</a>
             <a href="PDF/Akcio/massageAkcio.pdf" target="_blank" class="text_SH light_block light_text">Сообщения акционерам</a>
             <a href="PDF/Akcio/PredInf.pdf" target="_blank" class="text_SH light_block light_text">Предоставление информации</a>
-            <a href="PDF/Akcio/reestrDerj.pdf" target="_blank" class="text_SH light_block light_text">Реестродержатель</a>
+            <a href="PDF/Akcio/reestrDerj.pdf" target="_blank" class="text_SH last light_block light_text">Реестродержатель</a>
         </div>
     </div>
 

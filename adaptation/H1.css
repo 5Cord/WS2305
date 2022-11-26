@@ -53,6 +53,15 @@
                                 .zagol_isk {
                                     margin-top: 2.9em;
                                 }
+                                .title_cont {
+                                    font-size: 2em;
+                                }
+                                .name_cont {
+                                    font-size: 1.8em;
+                                }
+                                .tel_cont a {
+                                    font-size: 1.4em;
+                                }
                             }
                             
                             @media screen and (max-width: 1024px) {
@@ -71,6 +80,15 @@
                                 .bread_point {
                                     font-size: 70%;
                                 }
+                                .title_cont {
+                                    font-size: 2em;
+                                }
+                                .name_cont {
+                                    font-size: 1.8em;
+                                }
+                                .tel_cont a {
+                                    font-size: 1.4em;
+                                }
                             }
                             
                             @media screen and (max-width: 768px) {
@@ -85,6 +103,15 @@
                                 }
                                 .zagol_isk {
                                     margin-top: 3.366em;
+                                }
+                                .title_cont {
+                                    font-size: 1.4em;
+                                }
+                                .name_cont {
+                                    font-size: 1.2em;
+                                }
+                                .tel_cont a {
+                                    font-size: 0.8em;
                                 }
                             }
                             
@@ -101,6 +128,15 @@
                                 .bread_point {
                                     font-size: 50%;
                                 }
+                                .title_cont {
+                                    font-size: 1.1em;
+                                }
+                                .name_cont {
+                                    font-size: 0.9em;
+                                }
+                                .tel_cont a {
+                                    font-size: 0.7em;
+                                }
                             }
                             
                             @media screen and (max-width: 375px) {
@@ -112,6 +148,12 @@
                                     font-weight: bold;
                                     margin-top: 1.366em;
                                     margin-bottom: 1.366em;
+                                }
+                                .title_cont {
+                                    font-size: 1em;
+                                }
+                                .name_cont {
+                                    font-size: 0.8em;
                                 }
                             }
                             
@@ -128,8 +170,14 @@
                                 .zagol_isk {
                                     margin-top: 2.566em;
                                 }
+                                .title_cont {
+                                    font-size: 0.5em;
+                                }
+                                .name_cont {
+                                    font-size: 0.3em;
+                                }
                             }
                             
                             .black {
-                                color: black;
+                                color: rgb(255, 255, 255);
                             }

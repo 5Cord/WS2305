@@ -35,37 +35,36 @@
 
                 <div class="left">
                     <div class="block_contact light_text">
-                        <div class="title_cont ">ГЕНЕРАЛЬНЫЙ ДИРфЕКТОР АО «БЕЛЗАН»</div>
-                        <div class="name_cont ">ТИМУР ШАМИЛЕВИЧ ГАЛИАХМЕТОВ</div>
+                        <div class="title_cont">ТИМУР ШАМИЛЕВИЧ ГАЛИАХМЕТОВ</div>
+                        <div class="name_cont">ГЕНЕРАЛЬНЫЙ ДИРфЕКТОР АО «БЕЛЗАН»</div>
                         <div class="tel_cont"></div>
                     </div>
                     <div class="block_contact light_text">
-                        <div class="title_cont">ДИРЕКТОР ПО МАРКЕТИНГУ И СБЫТУ</div>
-                        <div class="name_cont"> КОНСТАНТИН АНАТОЛЬЕВИЧ ФЕДОРОВ</div>
+                        <div class="title_cont">КОНСТАНТИН АНАТОЛЬЕВИЧ ФЕДОРОВ</div>
+                        <div class="name_cont">ДИРЕКТОР ПО МАРКЕТИНГУ И СБЫТУ</div>
                         <div class="tel_cont"><a class="light_text" href="tel:+73478661415">+7 (34786) 6-14-15</a></div>
                         <div class="tel_cont"><a class="light_text" href="tel:+73478661415">+7 (34786) 6-14-53</a></div>
                     </div>
                     <div class="block_contact light_text">
-                        <div class="title_cont">ИГНАТЬЕВ ДМИТРИЙ МИХАЙЛОВИЧ</div>
+                        <div class="title_cont">ТУЛИНА ИРИНА АЛЕКСАНДРОВНА</div>
                         <div class="name_cont">ДИРЕКТОР ПРЕДСТАВИТЕЛЬСТВА В Г.ТОЛЬЯТТИ</div>
-                        <div class="tel_cont light_text"><a class="light_text" href="tel:+79871442521">+7 (987) 144-25-21</a></div>
+                        <div class="tel_cont light_text"><a class="light_text" href="tel:+79871442521">+7 (34786) 6-15-55</a></div>
                     </div>
                     <div class="block_contact">
-                        <div class="title_cont light_text">ФЕДОРОВ АНДРЕЙ АНАТОЛЬЕВИЧ</div>
-                        <div class="name_cont light_text">НАЧАЛЬНИК ИНСТРУМЕНТАЛЬНОГО ПРОИЗВОДСТВА</div>
-                        <div class="tel_cont"><a class="light_text" href="tel:+79871442521">+7 (987) 144-25-21</a></div>
+                        <div class="title_cont light_text">ИГНАТЬЕВ ДМИТРИЙ МИХАЙЛОВИЧ</div>
+                        <div class="name_cont light_text">ДИРЕКТОР ПРЕДСТАВИТЕЛЬСТВА В Г.ТОЛЬЯТТИ</div>
+                        <div class="tel_cont"><a class="light_text" href="tel:+79871442521">+7 (927) 955 72 75</a></div>
                     </div>
                     <div class="block_contact">
                         <div class="title_cont"></div>
-                        <div class="name_cont light_text"> ОТДЕЛ МАРКЕТИНГА:</div>
+                        <div class="name_cont light_text">ОТДЕЛ МАРКЕТИНГА:</div>
                         <div class="tel_cont light_text"><a class="light_text" href="tel:+73478661415">+7 (34786) 6-14-15</a></div>
                         <div class="tel_cont light_text"><a class="light_text" href="tel:+73478661415">+7 (34786) 6-14-53</a></div>
                     </div>
                     <div class="block_contact">
                         <div class="title_cont"></div>
-                        <div class="name_cont light_text"> ОТДЕЛ МАРКЕТИНГА:</div>
+                        <div class="name_cont light_text">НАЧАЛЬНИК ОТДЕЛА КОНТРОЛЯ КАЧЕСТВ:</div>
                         <div class="tel_cont light_text"><a class="light_text" href="tel:+73478661771">+7 (34786) 6-17-71</a></div>
-                        <div class="tel_cont light_text"><a class="light_text" href="tel:+73478661415">+7 (34786) 6-14-53</a></div>
                     </div>
                     <div class="block_contact">
                         <div class="title_cont"></div>
@@ -81,19 +80,29 @@
 
                 <div class="right">
                     <div class="block_contact">
-                        <div class="title_cont light_text">ГЕНЕРАЛЬНЫЙ ДИРЕКТОР АО «БЕЛЗАН»</div>
-                        <div class="name_cont light_text">ТИМУР ШАМИЛЕВИЧ ГАЛИАХМЕТОВ</div>
-                        <div class="tel_cont light_text"><a class="light_text" href="tel:+79871442521">+7 (987) 144-25-21</a></div>
+                        <div class="title_cont light_text">ЦЕНТРАЛИЗОВАННЫЙ ФАКС/E-MAIL:</div>
+                        <div class="tel_cont light_text"><a class="light_text" href="tel:+79871442521">+7 (34786) 3-01-90</a></div>
                     </div>
                     <div class="block_contact">
-                        <div class="title_cont light_text">ГЕНЕРАЛЬНЫЙ ДИРЕКТОР АО «БЕЛЗАН»</div>
-                        <div class="name_cont light_text">ТИМУР ШАМИЛЕВИЧ ГАЛИАХМЕТОВ</div>
-                        <div class="tel_cont light_text"><a class="light_text" href="tel:+79871442521">+7 (987) 144-25-21</a></div>
+                        <div class="title_cont light_text">ОТДЕЛ ПО РАБОТЕ С ПЕРСОНАЛОМ:</div>
+                        <div class="tel_cont light_text"><a class="light_text" href="tel:+79871442521">+7 (34786) 6-11-24</a></div>
                     </div>
                     <div class="block_contact">
-                        <div class="title_cont light_text">ГЕНЕРАЛЬНЫЙ ДИРЕКТОР АО «БЕЛЗАН»</div>
-                        <div class="name_cont light_text">ТИМУР ШАМИЛЕВИЧ ГАЛИАХМЕТОВ</div>
-                        <div class="tel_cont light_text"><a class="light_text" href="tel:+79871442521">+7 (987) 144-25-21</a></div>
+                        <div class="title_cont light_text">ОТДЕЛ СНАБЖЕНИЯ:</div>
+                        <div class="tel_cont light_text"><a class="light_text" href="tel:+79871442521">+7 (34786) 6-15-77</a></div>
+                        <div class="tel_cont light_text"><a class="light_text" href="tel:+79871442521">+7 (34786) 6-18-84</a></div>
+                        <div class="tel_cont light_text"><a class="light_text" href="tel:+79871442521">+7 (34786) 6-24-67</a></div>
+                    </div>
+                    <div class="block_contact">
+                        <div class="title_cont light_text">ГРУППА ПО РЕАЛИЗАЦИИ НЕПРОФИЛЬНОЙ ПРОДУКЦИИ (НЕЛИКВИДОВ):</div>
+                        <div class="tel_cont light_text"><a class="light_text" href="tel:+79871442521">+7 (34786) 6-20-26</a></div>
+                        <div class="tel_cont light_text"><a class="light_text" href="tel:+79871442521">8 (927) 95-57-210</a></div>
+                    </div>
+                    <div class="block_contact">
+                        <div class="title_cont light_text">ОТДЕЛ ПРОДАЖ НА ВТОРИЧНЫЙ РЫНОК:</div>
+                        <div class="tel_cont light_text"><a class="light_text" href="tel:+79871442521">+7 (34786) 6-15-19</a></div>
+                        <div class="tel_cont light_text"><a class="light_text" href="tel:+79871442521">+7 (34786) 6-15-15</a></div>
+                        <div class="tel_cont light_text"><a class="light_text" href="mail:sak@belzan.ru">sak@belzan.ru</a></div>
                     </div>
                 </div>
 

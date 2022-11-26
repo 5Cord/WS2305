@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -14,12 +14,10 @@
 <body>
   <div class="text_header">АО "БелЗАН"</div>
   <div class="left_menu">
-    <div class="block_left_menu">
-
-
+    <div  class="block_left_menu">
+      <?php include "../connect/connect.php"; ?>
       <a href=<?
-              $link = mysqli_connect("192.168.30.119", "5cord", "5cord", "belzan");
-              $query = mysqli_query($link, "SELECT * FROM users WHERE id='" . intval($_COOKIE['id']) . "'Limit 1");
+              $query = mysqli_query($connect, "SELECT * FROM users WHERE id='" . intval($_COOKIE['id']) . "'Limit 1");
               $userdata = mysqli_fetch_assoc($query);
               if ((true == $_COOKIE['hash']) and (true == $_COOKIE['id'])) {
                 print("Registr/Logout.php");
@@ -27,8 +25,7 @@
                 print("Registr/Login.php");
               }
               ?><?
-        $link = mysqli_connect("192.168.30.119", "5cord", "5cord", "belzan");
-        $query = mysqli_query($link, "SELECT * FROM users WHERE id='" . intval($_COOKIE['id']) . "'Limit 1");
+        $query = mysqli_query($connect, "SELECT * FROM users WHERE id='" . intval($_COOKIE['id']) . "'Limit 1");
         $userdata = mysqli_fetch_assoc($query);
         if ((true == $_COOKIE['hash']) and (true == $_COOKIE['id'])) {
           print $userdata[''];
@@ -37,17 +34,20 @@
         }
         ?> class="ex AHeader"><?php
                             if ((true == $_COOKIE['hash']) and (true == $_COOKIE['id'])) {
-                              print '<div class="point_left">Выйти</div>';
-                              echo '<a target="iframe_a" href="News.html"><div class="point_left">Новости</div></a>
+                              print '<div class="point_left block_icon_mp"><img class="icon_MP" src="../images/icon/log_out.png"></div>';
+                              echo '
+                              <a target="iframe_a" href="Registr/Register.php"><div class="point_left block_icon_mp"><img class="icon_MP" src="../images/icon/register.png"></div></a>
+                              <a target="iframe_a" href="DeleteUsers.php"><div class="point_left block_icon_mp"><img class="icon_MP" src="../images/icon/remove_user.png"></div></a>
+                              <a target="iframe_a" href="News.html"><div class="point_left">Новости</div></a>
           <a target="iframe_a" href="History.html"><div class="point_left">История</div></a>
           <a target="iframe_a" href="FeedBack.php"><div class="point_left">Обратная связь</div></a>';
                             } else {
-                              print '<div class="point_left">Войти</div>';
+                              print '<div class="point_left block_icon_mp"><img class="icon_MP reg" src="../images/icon/login.png"></div></a>';
                             }
                             ?>
     </div>
   </div>
-  <iframe name="iframe_a" src="" frameborder="0" w></iframe>
+  <iframe name="iframe_a" src="" frameborder="0"></iframe>
 </body>
 
 </html>

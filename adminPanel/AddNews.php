@@ -1,4 +1,4 @@
-<?php include '../connect/connect.php';?>
+<?php include '../connect/connect.php'; ?>
 <!DOCTYPE html>
 
 <head>
@@ -15,7 +15,9 @@
 <body>
     <div class="container">
         <h1 class="zagol black">Добавление новости</h1>
-        <a class="none" href="News.html">Назад</a>
+        <div class="back">
+            <a class="none" href="News.html">Назад</a>
+        </div>
         <form action="" method="post">
             <div class="row">
                 <div class="col-25">
@@ -35,7 +37,7 @@
             </div>
             <div class="row">
                 <div class="col-25">
-                    <label for="country" class="col-25">Дата</label>
+                    <label for="country">Дата</label>
                 </div>
                 <div class="col-75">
                     <input type="date" id="date" name="date" class="date">
@@ -64,19 +66,19 @@
     </div>
 </body>
 <?php
-  //Если переменная Name передана
-  if (isset($_POST["title"])) {
+//Если переменная Name передана
+if (isset($_POST["title"])) {
     //Вставляем данные, подставляя их в запрос
     $sql = mysqli_query($connect, "INSERT INTO `news` (`title`, `content`, `date`, `picture`) VALUES ('{$_POST['title']}', '{$_POST['content']}', '{$_POST['date']}', '{$_POST['picture']}')");
     //Если вставка прошла успешно
     if ($sql) {
-      echo '<p class="yspeh">Запись успешно добавлена</p>';
-      header("refresh: 5; AddNews.php");
+        echo '<p class="yspeh">Запись успешно добавлена</p>';
+        header("refresh: 5; AddNews.php");
     } else {
-      echo '<p class="yspeh">Произошла ошибка: ' . mysqli_error($connect) . '</p>';
+        echo '<p class="yspeh">Заполните поля</p>';
     }
     unset($_POST);
-  }
+}
 ?>
 <script src="js/add.js"></script>
 

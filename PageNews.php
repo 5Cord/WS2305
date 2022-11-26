@@ -30,7 +30,6 @@ $resActual = mysqli_query($connect, "SELECT * FROM `news`  ORDER BY id DESC LIMI
 
     <!-- Swiper -->
 
-    <!-- <?php include 'include/header-swiper.php'; ?> -->
 
     <div class="container">
         <div class="two_rows_news">

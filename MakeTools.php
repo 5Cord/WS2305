@@ -34,12 +34,12 @@
     <?php include 'include/header.php'; ?>
     <?php include 'include/header-swiper.php'; ?>
 
+    <div class="bread_point light_text">
+        <a href="#" onclick="javascript:history.back(); return false;">Услуги-></a>
+        <a href="Docum.php">Изготовление документа</a>
+    </div>
     <div class="container">
 
-        <div class="bread_point light_text">
-            <a href="#" onclick="javascript:history.back(); return false;">Услуги-></a>
-            <a href="Docum.php">Изготовление документа</a>
-        </div>
 
         <div class="zagol light_text">ИЗГОТОВЛЕНИЕ ИНСТРУМЕНТА</div>
         <div class="SS light_text"><a class="light_text" href="https://www.belzan.ru/service/ИП%20презентация.ppt">Призентация возможностей инструментального производства</a></div>
@@ -112,14 +112,14 @@
         <div class="zagol light_text">ИНЖИНИРИНГ</div>
         <div class="instrum light_text">Проектирование инструмента производится с помощью графического редактора T-FLEX CAD</div>
         <div class="instrum light_text">Вся конструкторская документации на технологическую оснастку находится в единой базе данных TFLEX DOCs</div>
-        <div class="img_instrum zagol light_text"><img class="img_instrum" src="images/about/Injenering.png" alt="Tools"></div>
+        <div class="img_instrum light_text"><img class="img_instrum" src="images/about/Injenering.png" alt="Tools"></div>
 
         <div class="zagol light_text">КАЧЕСТВО</div>
         <div class="instrum light_text">Контроль качества произведённой продукции осуществляется в термоконстантном зале. Для
             обеспечения контроля наряду с универсальными средствами измерения имеются:</div>
         <div class="instrum light_text">Трехкоординатная машина для контроля геометрических параметров с точностью до 0,0001 мм</div>
         <div class="instrum light_text">Электронный видеомикроскоп для контроля инструмента с точностью до 0,0001 мм</div>
-        <div class="img_instrum zagol light_text"><img class="img_instrum" src="images/about/qulat.png" alt="Tools"></div>
+        <div class="img_instrum light_text"><img class="img_instrum" src="images/about/qulat.png" alt="Tools"></div>
 
         <div class="zagol light_text">РЕЗКА ЗАГОТОВКИ</div>
         <div class="instrum light_text">Резка сортового проката производится на ленточнопильных и абразивно-отрезных станках. Листовой
@@ -132,7 +132,7 @@
         <div class="zagol light_text">УЧАСТОК ОТЖИГА ЗАГОТОВОК</div>
         <div class="instrum light_text">Данный участок оснащен 7 молотами с весом падающих частей от 100 кг до 2 т. Нагрев производится
             в газовых камерных печах. Максимальный вес поковки 100 кг.</div>
-        <div class="img_instrum zagol light_text"><img class="img_instrum" src="images/about/YOZ.png" alt="Tools"></div>
+        <div class="img_instrum light_text"><img class="img_instrum" src="images/about/YOZ.png" alt="Tools"></div>
         <div class="instrum light_text">Предварительная механическая обработка выполняется с целью предотвращения появления
             термических трещин и деформаций металла, возникающих при термической обработке.
             Перед сдачей термообработанной заготовки в дальнейшее производство каждая деталь проходит
@@ -144,7 +144,7 @@
             ELTERMA и печей с защитной атмосферой IPSON. Для повышения твердости рабочих поверхностей в
             производстве применяется карбонитрация и цементация.
         </div>
-        <div class="img_instrum zagol light_text"><img class="img_instrum" src="images/about/Termich.png" alt="Tools"></div>
+        <div class="img_instrum light_text"><img class="img_instrum" src="images/about/Termich.png" alt="Tools"></div>
         <div class="instrum light_text">ВПТ-012 – установка нового поколения, предназначенная для упрочнения режущих инструментов
             путем осаждения как стандартных износостойких покрытий на основе твердых соединений Ti, Cr, Zr и др., так и современных покрытий на основе однослойных, многослойных и наноструктурированных
             композиций системы Ti Al Cr N с регулируемым соотношением компонентов, что обеспечивает

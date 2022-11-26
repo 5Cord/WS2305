@@ -1,13 +1,13 @@
 <style>
   
 </style>
-<select id="selectID" class="light_SO" onchange="window.location.href=this.options[this.selectedIndex].value">
+<select id="selectID" class="light_SO select" onchange="window.location.href=this.options[this.selectedIndex].value">
 <option disabled selected value>-- Ничего не выбрано --</option>
 <option class="light_SO" value="../map.php">ГЕОГРАФИЯ ПРИСУТСТВИЯ</option>
 <option class="light_SO" value="../history.php">ИСТОРИЯ</option>
 <option class="light_SO" value="../License.php">ЛИЦЕНЗИИ</option>
 <option class="light_SO" actio value="../Docum.php" target="_bank">ДОКУМЕНТЫ</option>
-<option class="light_SO" value="../Obychenie.php">ОБУЧЕНИЕ</option>
+<option class="light_SO" value="../training.php">ОБУЧЕНИЕ</option>
 
 </select>
 

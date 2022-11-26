@@ -34,10 +34,11 @@
 
     <!-- Swiper -->
     <?php include 'include/header-swiper.php'; ?>
-
-    <div class="bread_point light_text">
-        <a href="#" onclick="javascript:history.back(); return false;">О компании-></a>
-        <a href="map.php">География присутсвия</a>
+    <div class="box_bread_point">
+        <div class="bread_point light_text">
+            <a href="#" class="a_link" onclick="javascript:history.back(); return false;">О компании-></a>
+            <a href="map.php" class="a_link">География присутсвия</a>
+        </div>
     </div>
     <div class="container">
         <div class="zagol light_text">География присутсвия</div>

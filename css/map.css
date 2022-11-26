@@ -1,13 +1,26 @@
 .bread_point a {
+    position: relative;
     color: #1E71BF;
     font-size: 1.5em;
+    z-index: 9999;
 }
 
 .bread_point {
-    margin-left: 2em;
     margin-bottom: -2em;
+    padding: 1em 4em;
+    background-color: rgb(204 225 255);
+    z-index: 9999;
 }
 
 .dark_text a {
     color: #B4CEEE;
+    z-index: 9999;
+}
+
+.a_link {
+    z-index: 9999;
+}
+
+.box_bread_point {
+    z-index: 9999;
 }

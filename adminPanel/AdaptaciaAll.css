@@ -1,5 +1,6 @@
             .content {
                 font-size: 100%;
+                color: white;
             }
             
             .butt {
@@ -8,138 +9,320 @@
             
             td img {
                 width: 60%;
+                display: flex;
             }
             
-            @media screen and (max-width: 1024px) {
+            .checkin {
+                background-color: rgba(91, 255, 91, 0.5);
+            }
+            
+            .selected {
+                margin: 0 0 0 1em;
+            }
+            
+            .forma_seelct {
+                display: flex;
+                justify-content: space-evenly;
+            }
+            
+            label {
+                padding: 12px 12px 12px 0;
+                display: inline-block;
+                font-size: 110%;
+            }
+            
+            input[type=text],
+            textarea:active {
+                border: white 2px solid;
+                outline: white;
+            }
+            
+            input[type=text],
+            textarea:focus {
+                border: white 2px solid;
+                outline: white;
+            }
+            
+            input[type=file] {
+                color: #ffffff;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            
+            input[type=text],
+            textarea {
+                width: 100%;
+                padding: 12px;
+                border: 2px solid rgb(255, 255, 255);
+                background-color: rgb(255 255 255 / 16%);
+                border-radius: 4px;
+                box-sizing: border-box;
+                resize: vertical;
+                color: white;
+            }
+            
+            input[type=date] {
+                width: 100%;
+                padding: 12px;
+                border: 2px solid rgb(255, 255, 255);
+                background-color: rgb(255 255 255 / 16%);
+                border-radius: 4px;
+                box-sizing: border-box;
+                resize: vertical;
+                color: white;
+            }
+            
+            .col-25 {
+                float: left;
+                width: 25%;
+                margin-top: 6px;
+                color: white;
+                text-align: right;
+                font-size: 130%;
+            }
+            
+            td {
+                color: white;
+            }
+            
+            .picture_id {
+                width: 30%;
+            }
+            
+            .edit {
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+            }
+            
+            @media screen and (max-width: 1440px) {
                 input[type=text],
                 textarea {
                     width: 100%;
-                    padding: 5px;
-                    border: 1px solid #ccc;
+                    padding: 10px;
+                    border: 2px solid rgb(255, 255, 255);
+                    background-color: rgb(255 255 255 / 16%);
                     border-radius: 4px;
                     box-sizing: border-box;
                     resize: vertical;
-                }
-                input[type=date] {
-                    width: 100%;
-                    padding: 5px;
-                    border: 1px solid #ccc;
-                    border-radius: 4px;
-                    box-sizing: border-box;
-                    resize: vertical;
-                }
-                input[type=submit] {
-                    background-color: #4CAF50;
                     color: white;
-                    padding: 10px 18px;
-                    border: none;
-                    border-radius: 4px;
-                    cursor: pointer;
-                    float: right;
                 }
                 label {
                     padding: 12px 12px 12px 0;
                     display: inline-block;
-                    font-size: 80%;
+                    font-size: 100%;
+                }
+                .col-25 {
+                    float: left;
+                    width: 25%;
+                    margin-top: 6px;
+                    color: white;
+                    text-align: right;
+                    font-size: 120%;
+                }
+                input[type=file] {
+                    color: #ffffff;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            }
+            
+            @media screen and (max-width: 1024px) {
+                input[type=text],
+                select,
+                textarea {
+                    width: 100%;
+                    padding: 8px;
+                    border: 2px solid rgb(255, 255, 255);
+                    background-color: rgb(255 255 255 / 16%);
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                    resize: vertical;
+                    color: white;
+                }
+                label {
+                    padding: 12px 12px 12px 0;
+                    display: inline-block;
+                    font-size: 100%;
+                }
+                .col-25 {
+                    float: left;
+                    width: 25%;
+                    margin-top: 6px;
+                    color: white;
+                    text-align: right;
+                    font-size: 100%;
                 }
                 .none {
-                    color: black;
-                    text-decoration: underline;
-                    font-size: 90%;
+                    font-size: 100%;
                 }
                 .content {
-                    font-size: 70%;
-                }
-                .butt {
-                    font-size: 90%;
-                }
-                table th {
                     font-size: 80%;
+                    color: white;
                 }
             }
             
             @media screen and (max-width: 768px) {
-                .content {
-                    font-size: 80%;
+                input[type=text],
+                select,
+                textarea {
+                    width: 100%;
+                    padding: 8px;
+                    border: 2px solid rgb(255, 255, 255);
+                    background-color: rgb(255 255 255 / 16%);
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                    resize: vertical;
+                    color: white;
                 }
-                .butt {
-                    font-size: 80%;
+                label {
+                    padding: 12px 12px 12px 0;
+                    display: inline-block;
+                    font-size: 100%;
                 }
-                table th {
-                    font-size: 70%;
+                .col-25 {
+                    float: left;
+                    width: 25%;
+                    margin-top: 6px;
+                    color: white;
+                    text-align: right;
+                    font-size: 100%;
+                }
+                input[type=file] {
+                    color: #ffffff;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
                 }
                 .none {
-                    color: black;
-                    text-decoration: underline;
-                    font-size: 70%;
+                    font-size: 100%;
                 }
             }
             
-            @media screen and (max-width: 475px) {
-                .content {
-                    font-size: 50%;
+            @media screen and (max-width: 600px) {
+                input[type=text],
+                select,
+                textarea {
+                    width: 100%;
+                    padding: 8px;
+                    border: 2px solid rgb(255, 255, 255);
+                    background-color: rgb(255 255 255 / 16%);
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                    resize: vertical;
+                    color: white;
+                    font-size: 80%;
                 }
-                .butt {
-                    font-size: 40%;
+                label {
+                    padding: 12px 12px 12px 0;
+                    display: inline-block;
+                    font-size: 130%;
                 }
-                table th {
-                    font-size: 50%;
+                .col-25 {
+                    float: left;
+                    width: 40%;
+                    margin-top: 6px;
+                    color: white;
+                    text-align: left;
+                    font-size: 100%;
                 }
-                td img {
-                    width: 80%;
+                input[type=file] {
+                    color: #ffffff;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    font-size: 100%;
                 }
                 .none {
-                    color: black;
-                    text-decoration: underline;
-                    font-size: 60%;
-                }
-                .DSI {
-                    font-size: 80%;
+                    font-size: 100%;
                 }
             }
             
             @media screen and (max-width: 425px) {
                 input[type=text],
+                select,
                 textarea {
                     width: 100%;
-                    padding: 5px;
-                    border: 1px solid #ccc;
+                    padding: 8px;
+                    border: 2px solid rgb(255, 255, 255);
+                    background-color: rgb(255 255 255 / 16%);
                     border-radius: 4px;
                     box-sizing: border-box;
                     resize: vertical;
-                    height: 20px;
-                    font-size: 60%;
-                }
-                input[type=date] {
-                    width: 100%;
-                    padding: 5px;
-                    border: 1px solid #ccc;
-                    border-radius: 4px;
-                    box-sizing: border-box;
-                    resize: vertical;
-                    height: 20px;
-                    font-size: 60%;
-                }
-                input[type=submit] {
-                    background-color: #4CAF50;
                     color: white;
-                    padding: 4px 8px;
-                    border: none;
-                    border-radius: 4px;
-                    cursor: pointer;
-                    float: right;
-                    margin-top: 1em;
-                    font-size: 60%;
+                }
+                label {
+                    padding: 12px 12px 12px 0;
+                    display: inline-block;
+                    font-size: 100%;
+                }
+                .col-25 {
+                    float: left;
+                    width: 50%;
+                    margin-top: 6px;
+                    color: white;
+                    text-align: left;
+                    font-size: 100%;
                 }
                 input[type=file] {
-                    color: #4CAF50;
-                    padding: 8px 16px;
+                    color: #ffffff;
+                    padding: 10px 20px;
                     border: none;
                     border-radius: 4px;
                     cursor: pointer;
-                    font-size: 60%;
                 }
-                tbody {
-                    font-size: 50%;
+                .none {
+                    font-size: 100%;
                 }
+            }
+            
+            @media screen and (max-width: 375px) {
+                .zagol {
+                    color: #1D71BD;
+                    text-align: center;
+                    font-size: 1.5em;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    margin-top: 1.366em;
+                    margin-bottom: 1.366em;
+                }
+                .title_cont {
+                    font-size: 1em;
+                }
+                .name_cont {
+                    font-size: 0.8em;
+                }
+            }
+            
+            @media screen and (max-width: 320px) {
+                .zagol {
+                    color: #1D71BD;
+                    text-align: center;
+                    font-size: 1em;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    margin-top: 1.366em;
+                    margin-bottom: 1.366em;
+                }
+                .zagol_isk {
+                    margin-top: 2.566em;
+                }
+                .title_cont {
+                    font-size: 0.5em;
+                }
+                .name_cont {
+                    font-size: 0.3em;
+                }
+            }
+            
+            .black {
+                color: rgb(255, 255, 255);
             }

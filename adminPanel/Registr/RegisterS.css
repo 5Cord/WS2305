@@ -13,7 +13,8 @@ input {
     font-size: 110%;
     height: 4%;
     border-radius: 5px;
-    margin-bottom: 1%;
+    padding: 1em;
+    margin-bottom: 1em;
     border: 0;
     box-shadow: 0px 7px 8px -3px rgba(34, 60, 80, 0.2);
 }
@@ -52,4 +53,117 @@ form a {
 .ContADMP {
     text-align: center;
     margin-bottom: 2%;
+}
+
+@media screen and (max-width: 1440px) {
+    input {
+        font-size: 110%;
+        width: 30%;
+        padding: 1em;
+        border-radius: 5px;
+        margin-bottom: 1em;
+        border: 0;
+        box-shadow: 0px 7px 8px -3px rgb(34 60 80 / 20%);
+    }
+    .textLog {
+        font-size: 120%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    input {
+        font-size: 110%;
+        width: 30%;
+        padding: 0.7em;
+        border-radius: 5px;
+        margin-bottom: 1em;
+        border: 0;
+        box-shadow: 0px 7px 8px -3px rgb(34 60 80 / 20%);
+    }
+    .textLog {
+        font-size: 120%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    input {
+        font-size: 150%;
+        width: 30%;
+        padding: 0.7em;
+        border-radius: 5px;
+        margin-bottom: 1em;
+        border: 0;
+        box-shadow: 0px 7px 8px -3px rgb(34 60 80 / 20%);
+    }
+    .textLog {
+        font-size: 150%;
+    }
+    .TZagl {
+        font-size: 180%;
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    input {
+        font-size: 130%;
+        width: 50%;
+        padding: 0.5em;
+        border-radius: 5px;
+        margin-bottom: 1em;
+        border: 0;
+        box-shadow: 0px 7px 8px -3px rgb(34 60 80 / 20%);
+    }
+    .textLog {
+        font-size: 130%;
+    }
+    .TZagl {
+        font-size: 160%;
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .zagol {
+        color: #1D71BD;
+        text-align: center;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 1.366em;
+        margin-bottom: 1.366em;
+    }
+    .title_cont {
+        font-size: 1em;
+    }
+    .name_cont {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .zagol {
+        color: #1D71BD;
+        text-align: center;
+        font-size: 1em;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 1.366em;
+        margin-bottom: 1.366em;
+    }
+    .zagol_isk {
+        margin-top: 2.566em;
+    }
+    .title_cont {
+        font-size: 0.5em;
+    }
+    .name_cont {
+        font-size: 0.3em;
+    }
+}
+
+.black {
+    color: rgb(255, 255, 255);
 }

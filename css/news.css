@@ -157,15 +157,17 @@ footer {
 
 .pag {
     color: rgb(0, 0, 0);
+    background-color: #6495ed40;
+    font-size: 110%;
     z-index: 5;
     width: 5%;
-    background-color: #b7c0ce;
     margin-bottom: 1em;
+    padding: 5px;
 }
 
 .paginacia a:hover {
-    background-color: #99a5b8;
     color: rgb(0, 0, 0);
+    background-color: #6494ed83;
 }
 
 .paginacia {

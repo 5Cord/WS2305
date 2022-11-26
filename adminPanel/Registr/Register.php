@@ -8,11 +8,11 @@
 
 <link rel="stylesheet" type="text/css" href="StyeleReg.css">
 <?
+include "../../connect/connect.php";
 ob_start();
 // Страница регистрации нового пользователя
 
 // Соединямся с БД
-$link=mysqli_connect("192.168.88.24", "5cord", "5cord", "belzan");
 
 if(isset($_POST['submit']))
 {
@@ -30,33 +30,32 @@ if(isset($_POST['submit']))
     }
 
     // проверяем, не сущестует ли пользователя с таким именем
-    $query = mysqli_query($link, "SELECT id FROM users WHERE user_login='".mysqli_real_escape_string($link, $_POST['user_login'])."'");
-    if(mysqli_num_rows($query) > 0)
-    {
+    $query = mysqli_query($connect, "SELECT id FROM users WHERE user_login='".mysqli_real_escape_string($connect, $_POST['user_login'])."'");
+    if(mysqli_num_rows($query) > 0){
         $err[] = "Пользователь с таким логином уже существует в базе данных";
     }
 
     // Если нет ошибок, то добавляем в БД нового пользователя
     if(count($err) == 0)
-    {
-
-        $user_login = $_POST['user_login'];
+    {$user_login = $_POST['user_login'];
 
         // Убераем лишние пробелы и делаем двойное хеширование
         $password = md5(md5(trim($_POST['password'])));
 
-        mysqli_query($link,"INSERT INTO users SET user_login='".$user_login."', user_password='".$password."'");
+        mysqli_query($connect,"INSERT INTO users SET user_login='".$user_login."', user_password='".$password."'");
         ob_end_clean();
         ob_start();
-        header("Location: Login.php"); exit();
-        echo"<script> alert('Успешно авторизированы!')</script>";
+        header("Location: Register.php"); exit();
+        echo"<script> alert('Успешно зарегистрированы!')</script>";
         ob_end_flush();
         exit();
 
     }
     else
     {
-        echo ("<script> alert('При регистрации произошли следующие ошибки, возможно пользователь с таким логином уже существет!)')</script> ");
+        // echo ("<script> alert('Произошла ошибка, возможно пользователь с таким логином уже существет!')</script> ");
+        print "<b>При регистрации произошли следующие ошибки:</b><br>";
+        foreach($err AS $error)
         {
             print $error."<br>";
         }
@@ -73,8 +72,8 @@ if(isset($_POST['submit']))
         
         <div class="mainCont">
             <div class="conteinerss">
-                <a href="Login.php" class="out">Авторизация</a>
-                <a href="../MainDB.php" class="out">На главную</a>
+                <!-- <a href="Login.php" class="out">Авторизация</a> -->
+                <!-- <a href="../MainDB.php" class="out">На главную</a> -->
             </div>
         </div>
     </form>

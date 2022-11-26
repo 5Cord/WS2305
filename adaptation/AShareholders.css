@@ -18,7 +18,7 @@
     }
 }
 
-@media screen and (max-width: 1180PX) {
+@media screen and (max-width: 1180px) {
     .text_SH {
         font-size: 22px;
     }
@@ -26,6 +26,9 @@
         font-size: 45px;
     }
     .swiper {
+        display: none;
+    }
+    .container_swiper {
         display: none;
     }
 }

@@ -1,4 +1,4 @@
-<?php include '../connect/connect.php';?>
+<?php include '../connect/connect.php'; ?>
 <!DOCTYPE html>
 
 <head>
@@ -30,7 +30,7 @@
                     <label for="name">Абзац №1</label>
                 </div>
                 <div class="col-75">
-                    <textarea type="content" id="content" name="content"></textarea>
+                    <textarea type="content" id="content" name="Connect"></textarea>
                 </div>
             </div>
             <div class="row">
@@ -56,19 +56,18 @@
     </div>
 </body>
 <?php
-  //Если переменная Name передана
-  if (isset($_POST["content"])) {
+//Если переменная Name передана
+if (isset($_POST["Connect"])) {
     //Вставляем данные, подставляя их в запрос
-    $sql = mysqli_query($connect, "INSERT INTO `history` (`years`, `content`, `content1`, `pictures`) VALUES ('{$_POST['years']}', '{$_POST['content']}', '{$_POST['content1']}', '{$_POST['pictures']}')");
+    $sql = mysqli_query($connect, "INSERT INTO `history` (`years`, `Connect`, `content1`, `pictures`) VALUES ('{$_POST['years']}', '{$_POST['Connect']}', '{$_POST['content1']}', '{$_POST['pictures']}')");
     //Если вставка прошла успешно
     if ($sql) {
-      echo '<p class="yspeh">Запись успешно добавлена</p>';
-      header("refresh: 5; AddHistorySwiper.php");
+        echo '<p class="yspeh">Запись успешно добавлена</p>';
+        header("refresh: 5; AddHistorySwiper.php");
     } else {
-      echo '<p class="yspeh">Произошла ошибка: ' . mysqli_error($connect) . '</p>';
+        echo '<p class="yspeh">Заполните поля</p>';
     }
-    unset($_POST);
-  }
+}
 ?>
 <script src="js/add.js"></script>
 

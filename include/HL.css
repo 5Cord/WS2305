@@ -6,11 +6,17 @@ select {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column-reverse;
+}
+
+.select {
+    margin-bottom: 2.6em;
 }
 
 @media screen and (max-width: 1336px) {
     select {
-        margin-left: 1.366em;
+        margin-bottom: 1em;
+        border-radius: 18px;
         display: block;
         width: 25%;
         height: 30px;
@@ -26,7 +32,6 @@ select {
 
 @media screen and (max-width: 1024px) {
     select {
-        margin-left: 1.366em;
         display: block;
         top: 15%;
         width: 25%;
@@ -44,7 +49,7 @@ select {
 @media screen and (max-width: 768px) {
     select {
         top: 110px;
-        width: 25%;
+        width: 40%;
         height: 30px;
         font-size: 13px;
         padding-left: 10px;
@@ -71,7 +76,7 @@ select {
 @media screen and (max-width: 570px) {
     select {
         top: 110px;
-        width: 22%;
+        width: 40%;
         height: 30px;
         font-size: 10px;
         padding-left: 10px;
@@ -98,7 +103,7 @@ select {
 @media screen and (max-width: 375px) {
     select {
         top: 110px;
-        width: 22%;
+        width: 50%;
         height: 30px;
         font-size: 10px;
         padding-left: 10px;

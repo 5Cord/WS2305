@@ -35,7 +35,7 @@
                 </div>
                 <div class="text_servisec TS_big light_text">Изготовление инструмента</div>
             </a>
-            <a href="arendaProiz.php" class="block_serv">
+            <a href="Rent.php" class="block_serv">
                 <div class="block_img_serv">
                     <img src="images/swiper/arenda.png" alt="ImageServices">
                 </div>
@@ -60,7 +60,7 @@
         </div>
 
         <div class="servisec">
-            <a href="TermObrab.php" class="block_serv">
+            <a href="TermProcess.php" class="block_serv">
                 <div class="block_img_serv">
                     <img src="images/swiper/termo.png" alt="ImageServices">
                 </div>

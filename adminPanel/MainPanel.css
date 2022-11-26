@@ -1,3 +1,11 @@
+    .block_left_menu {
+        width: 98%;
+    }
+    
+    .point_left {
+        margin: 0 auto;
+    }
+    
     @media screen and (max-width: 1440px) {
         .text_header {
             font-size: 2.5em;
@@ -8,9 +16,6 @@
         .text_header {
             font-size: 2.4em;
         }
-        a {
-            font-size: 120%;
-        }
         .a {
             font-size: 110%;
         }
@@ -19,9 +24,6 @@
     @media screen and (max-width: 910px) {
         .text_header {
             font-size: 2.4em;
-        }
-        a {
-            font-size: 110%;
         }
         .a {
             font-size: 100%;
@@ -33,19 +35,16 @@
             font-size: 2em;
         }
         .text_frame {
-            font-size: 100%;
+            font-size: 80%;
         }
         .a {
-            font-size: 90%;
+            font-size: 80%;
         }
     }
     
     @media screen and (max-width: 595px) {
         .text_header {
             font-size: 1.5em;
-        }
-        a {
-            font-size: 90%;
         }
         .a {
             font-size: 80%;
@@ -56,4 +55,12 @@
         .text_header {
             font-size: 1em;
         }
+    }
+    
+    .a {
+        color: black;
+    }
+    
+    .a:hover {
+        color: white;
     }

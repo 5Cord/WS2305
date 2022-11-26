@@ -2,6 +2,14 @@
         .imgg_instrum {
             margin: 1em auto;
         }
+        .last {
+            margin-bottom: 3em;
+        }
+        .img_instrum {
+            width: 80%;
+            margin: 1.366em auto;
+            text-align: center;
+        }
     }
     
     @media screen and (max-width: 1920px) {
@@ -42,7 +50,8 @@
         }
         .img_instrum {
             width: 80%;
-            margin: auto;
+            margin: 1.366em auto;
+            text-align: center;
         }
     }
     
@@ -84,7 +93,8 @@
         }
         .img_instrum {
             width: 80%;
-            margin: auto;
+            margin: 1.366em auto;
+            text-align: center;
         }
     }
     
@@ -107,7 +117,8 @@
         }
         .img_instrum {
             width: 80%;
-            margin: auto;
+            margin: 1.366em auto;
+            text-align: center;
         }
     }
     
@@ -130,7 +141,8 @@
         }
         .img_instrum {
             width: 90%;
-            margin: auto;
+            margin: 1.366em auto;
+            text-align: center;
         }
     }
     

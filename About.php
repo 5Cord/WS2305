@@ -45,7 +45,7 @@
                         <a target="_blank" href="Docum.php">Документы</a>
                     </div>
                     <div class="point_left_menu light_text">
-                        <a target="_blank" href="Obychenie.php">Обучение</a>
+                        <a target="_blank" href="training.php">Обучение</a>
                     </div>
                 </div>
             </div>
